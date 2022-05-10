@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.86de364a.css",
+    "main.js": "/static/js/main.ec621881.js",
+    "static/media/ShoEs.jpg": "/static/media/ShoEs.60d9c107d738a65d377f.jpg",
+    "static/media/CLother.jpg": "/static/media/CLother.3a22705754d141109080.jpg",
+    "static/media/ShoesC.jpg": "/static/media/ShoesC.cde531090067cd407650.jpg",
+    "static/media/ShoesBg.webp": "/static/media/ShoesBg.ada3d9a8d834f58e7f4a.webp",
+    "static/media/banner-men.webp": "/static/media/banner-men.c7b1e99ecb79611b78e7.webp",
+    "static/media/love_unitsBg.webp": "/static/media/love_unitsBg.1b200d5045030ae2ff77.webp",
+    "static/media/love_untsMB.webp": "/static/media/love_untsMB.a28a5f8e3cbf31943d91.webp",
+    "static/media/Logo.png": "/static/media/Logo.aa127ea7d39234e426d9.png",
+    "static/media/trefoil-hoodie.jpg": "/static/media/trefoil-hoodie.bc90e428ffb22444ec96.jpg",
+    "static/media/pants.webp": "/static/media/pants.b3039addd46986a26a03.webp",
+    "static/media/sneekers.webp": "/static/media/sneekers.57db819f555bff912f00.webp",
+    "static/media/tops.webp": "/static/media/tops.e106d4ae22c286b2b691.webp",
+    "index.html": "/index.html",
+    "static/media/Loader.svg": "/static/media/Loader.75b45cdf6040c020c21cd90225b9e24e.svg",
+    "main.86de364a.css.map": "/static/css/main.86de364a.css.map",
+    "main.ec621881.js.map": "/static/js/main.ec621881.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86de364a.css",
+    "static/js/main.ec621881.js"
+  ]
+}
