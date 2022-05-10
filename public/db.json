@@ -1,0 +1,167 @@
+{
+    "shoes":[
+        {
+            "id" : 0,
+            "imageURL": "https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/1a970dae8a564defbb64aa7600ffadcf_9366/EE6464_00_plp_standard.WebP",
+            "name": "Forum",
+            "price": "150",
+            "category": 0,
+            "color" : [0, 1],
+            "sizes" : [42, 43, 44],
+            "popular" : 20
+        },
+        {
+            "id" : 1,
+            "imageURL": "https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/3cdb49235c054e389887a91500a0bbe1_9366/G27706_00_plp_standard.WebP",
+            "name": "CONTINENTAL 80",
+            "price": "120",
+            "category": 2,
+            "color" : [0, 1],
+            "sizes" : [41, 43, 43.5, 44],
+            "popular" : 15
+        },
+        {
+            "id" : 2,
+            "imageURL": "https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/f404127b74e34844949cad2401575463_9366/H04250_00_plp_standard.WebP",
+            "name": "TERREX AX3 MID GORE-TEX",
+            "price": "176",
+            "category": 0,
+            "color" : [0, 1],
+            "sizes" : [41, 42, 43, 43.5, 44],
+            "popular" : 2
+        },
+        {
+            "id" : 3,
+            "imageURL": "https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/484cf8ed8315411db1b7a8260158c8b1_9366/CM7492_00_plp_standard.WebP",
+            "name": "Forum",
+            "price": "158",
+            "category": 0,
+            "color" : [0, 1],
+            "sizes" : [41, 42, 43, 43.5, 44],
+            "popular" : 13
+        },
+        {
+            "id" : 4,
+            "imageURL": "https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/fdd569ca5caa416b9b3eac6400f6b253_9366/FZ1839_00_plp_standard.WebP",
+            "name": "Forum",
+            "price": "158",
+            "category": 2,
+            "color" : [0],
+            "sizes" : [43.5, 44],
+            "popular" : 30
+        },
+        {
+            "id" : 5,
+            "imageURL": "https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/1a12ddf8f2fe479bbac9a92600ea29fa_9366/B44621_00_plp_standard.WebP",
+            "name": "Forum",
+            "price": "158",
+            "category": 1,
+            "color" : [1],
+            "sizes" : [41, 42, 43, 43.5, 44],
+            "popular" : 9
+        },
+        {
+            "id" : 6,
+            "imageURL": "https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/16e27d4ef2124508b9efac910105e1c2_9366/GZ5231_00_plp_standard.WebP",
+            "name": "Forum",
+            "price": "158",
+            "category": 2,
+            "color" : [0, 1],
+            "sizes" : [41, 42, 43],
+            "popular" : 14
+        },
+        {
+            "id" : 7,
+            "imageURL": "https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/210749af188848e9b3c8ac5e002ad539_9366/FY4975_00_plp_standard.WebP",
+            "name": "Forum",
+            "price": "158",
+            "category": 1,
+            "color" : [1],
+            "sizes" : [41, 42, 43, 44],
+            "popular" : 15
+        },
+        {
+            "id" : 8,
+            "imageURL": "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/9567bfbbf4d04eaa8b46ad7c011583e2_9366/adistar-shoes.jpg",
+            "name": "Forum",
+            "price": "158",
+            "category": 2,
+            "color" : [1],
+            "sizes" : [41, 42, 43, 43.5, 44],
+            "popular" : 11
+        },
+        {
+            "id" : 9,
+            "imageURL": "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/e4134210755f4092bff6ad7101686df1_9366/ventice-climacool-shoes.jpg",
+            "name": "VENTICE CLIMACOOL SHOES",
+            "price": "158",
+            "category": 0,
+            "color" : [0, 1],
+            "sizes" : [41, 43.5, 44],
+            "popular" : 6
+        },
+        {
+            "id" : 10,
+            "imageURL": "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/57cbbf12e37e4d0d8ec6ad5600bb6d7b_9366/4dfwd-pulse-shoes.jpg",
+            "name": "4DFWD PULSE SHOES",
+            "price": "158",
+            "category": 0,
+            "color" : [0, 1],
+            "sizes" : [44],
+            "popular" : 23
+        }
+    ],
+    "love": [
+        {
+            "id": 0,
+            "imageURL" : [
+                "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/6744427b6f794625bb01ae42016837d1_9366/love-unites-trefoil-tee-gender-neutral.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3bda0666abd74c91b22eae3200082f25_9366/Love_Unites_Trefoil_Tee_(Gender_Neutral)_Purple_HC3077_21_model.jpg"
+            ],
+            "title": "Love Unites Doodle Print Tee (Gender Neutral)",
+            "category": "Originals",
+            "price": 40
+        },
+        {
+            "id": 1,
+            "imageURL" : [
+                "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/17d61d8f5bc141f1a54fae470156d66f_9366/love-unites-doodle-print-tee-gender-neutral.jpg"
+            ],
+            "title": "Love Unites Trefoil Tee (Gender Neutral)",
+            "category": "Originals",
+            "price": 45
+        },
+        {
+            "id": 2,
+            "imageURL" : [
+                "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/0ad74f562a7f45c8a1deae1e00328d11_9366/superstar-pride-shoes.jpg"
+            ],
+            "title": "Superstar Pride Shoes",
+            "category": "Originals",
+            "price": 100
+        },
+        {
+            "id": 3,
+            "imageURL" : [
+                "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/10f1205e765e40eeb0d3ae05016130fe_9366/love-unites-trefoil-tee.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2f6dba4d2a3046cabb22adff003dea34_9366/Love_Unites_Trefoil_Tee_Purple_HG3899_01_laydown.jpg"
+            ],
+            "title": "Love Unites Trefoil Tee",
+            "category": "Youth Originals",
+            "price": 25
+        },{
+            "id": 4,
+            "imageURL" : [
+                "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/03d87f38d1bb4538a02eadbf014981a4_9366/ultraboost-22-shoes.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/49e5514bb83e4c5d8bf5ad9100ef2815_9366/Ultraboost_22_Shoes_White_GX5459_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c2e0af3250d349abb9c6ad7a0088d90c_9366/Ultraboost_22_Shoes_Red_GX5462_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6d40a18625c14c8493acae1400829563_9366/Ultraboost_22_Shoes_White_GX5466_01_standard.jpg"
+            ],
+            "title": "Ultraboost 22 Shoes",
+            "category": "Running",
+            "price": 190
+        }
+        
+    ]
+}
+ 
