@@ -1,157 +1,242 @@
 {
-    "shoes":[
+    "shoes": [
         {
-            "id" : 0,
+            "id": 0,
             "imageURL": "https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/1a970dae8a564defbb64aa7600ffadcf_9366/EE6464_00_plp_standard.WebP",
             "name": "Forum",
             "price": "150",
             "category": 0,
-            "color" : [0, 1],
-            "sizes" : [42, 43, 44],
-            "popular" : 20
+            "color": [
+                0,
+                1
+            ],
+            "sizes": [
+                42,
+                43,
+                44
+            ],
+            "popular": 20
         },
         {
-            "id" : 1,
+            "id": 1,
             "imageURL": "https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/3cdb49235c054e389887a91500a0bbe1_9366/G27706_00_plp_standard.WebP",
             "name": "CONTINENTAL 80",
             "price": "120",
             "category": 2,
-            "color" : [0, 1],
-            "sizes" : [41, 43, 43.5, 44],
-            "popular" : 15
+            "color": [
+                0,
+                1
+            ],
+            "sizes": [
+                41,
+                43,
+                43.5,
+                44
+            ],
+            "popular": 15
         },
         {
-            "id" : 2,
+            "id": 2,
             "imageURL": "https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/f404127b74e34844949cad2401575463_9366/H04250_00_plp_standard.WebP",
             "name": "TERREX AX3 MID GORE-TEX",
             "price": "176",
             "category": 0,
-            "color" : [0, 1],
-            "sizes" : [41, 42, 43, 43.5, 44],
-            "popular" : 2
+            "color": [
+                0,
+                1
+            ],
+            "sizes": [
+                41,
+                42,
+                43,
+                43.5,
+                44
+            ],
+            "popular": 2
         },
         {
-            "id" : 3,
+            "id": 3,
             "imageURL": "https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/484cf8ed8315411db1b7a8260158c8b1_9366/CM7492_00_plp_standard.WebP",
             "name": "Forum",
             "price": "158",
             "category": 0,
-            "color" : [0, 1],
-            "sizes" : [41, 42, 43, 43.5, 44],
-            "popular" : 13
+            "color": [
+                0,
+                1
+            ],
+            "sizes": [
+                41,
+                42,
+                43,
+                43.5,
+                44
+            ],
+            "popular": 13
         },
         {
-            "id" : 4,
+            "id": 4,
             "imageURL": "https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/fdd569ca5caa416b9b3eac6400f6b253_9366/FZ1839_00_plp_standard.WebP",
             "name": "Forum",
             "price": "158",
             "category": 2,
-            "color" : [0],
-            "sizes" : [43.5, 44],
-            "popular" : 30
+            "color": [
+                0
+            ],
+            "sizes": [
+                43.5,
+                44
+            ],
+            "popular": 30
         },
         {
-            "id" : 5,
+            "id": 5,
             "imageURL": "https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/1a12ddf8f2fe479bbac9a92600ea29fa_9366/B44621_00_plp_standard.WebP",
             "name": "Forum",
             "price": "158",
             "category": 1,
-            "color" : [1],
-            "sizes" : [41, 42, 43, 43.5, 44],
-            "popular" : 9
+            "color": [
+                1
+            ],
+            "sizes": [
+                41,
+                42,
+                43,
+                43.5,
+                44
+            ],
+            "popular": 9
         },
         {
-            "id" : 6,
+            "id": 6,
             "imageURL": "https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/16e27d4ef2124508b9efac910105e1c2_9366/GZ5231_00_plp_standard.WebP",
             "name": "Forum",
             "price": "158",
             "category": 2,
-            "color" : [0, 1],
-            "sizes" : [41, 42, 43],
-            "popular" : 14
+            "color": [
+                0,
+                1
+            ],
+            "sizes": [
+                41,
+                42,
+                43
+            ],
+            "popular": 14
         },
         {
-            "id" : 7,
+            "id": 7,
             "imageURL": "https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/210749af188848e9b3c8ac5e002ad539_9366/FY4975_00_plp_standard.WebP",
             "name": "Forum",
             "price": "158",
             "category": 1,
-            "color" : [1],
-            "sizes" : [41, 42, 43, 44],
-            "popular" : 15
+            "color": [
+                1
+            ],
+            "sizes": [
+                41,
+                42,
+                43,
+                44
+            ],
+            "popular": 15
         },
         {
-            "id" : 8,
+            "id": 8,
             "imageURL": "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/9567bfbbf4d04eaa8b46ad7c011583e2_9366/adistar-shoes.jpg",
             "name": "Forum",
             "price": "158",
             "category": 2,
-            "color" : [1],
-            "sizes" : [41, 42, 43, 43.5, 44],
-            "popular" : 11
+            "color": [
+                1
+            ],
+            "sizes": [
+                41,
+                42,
+                43,
+                43.5,
+                44
+            ],
+            "popular": 11
         },
         {
-            "id" : 9,
+            "id": 9,
             "imageURL": "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/e4134210755f4092bff6ad7101686df1_9366/ventice-climacool-shoes.jpg",
             "name": "VENTICE CLIMACOOL SHOES",
             "price": "158",
             "category": 0,
-            "color" : [0, 1],
-            "sizes" : [41, 43.5, 44],
-            "popular" : 6
+            "color": [
+                0,
+                1
+            ],
+            "sizes": [
+                41,
+                43.5,
+                44
+            ],
+            "popular": 6
         },
         {
-            "id" : 10,
+            "id": 10,
             "imageURL": "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/57cbbf12e37e4d0d8ec6ad5600bb6d7b_9366/4dfwd-pulse-shoes.jpg",
             "name": "4DFWD PULSE SHOES",
             "price": "158",
             "category": 0,
-            "color" : [0, 1],
-            "sizes" : [44],
-            "popular" : 23
+            "color": [
+                0,
+                1
+            ],
+            "sizes": [
+                44
+            ],
+            "popular": 23
         }
     ],
     "love": [
         {
-            "id": 0,
-            "imageURL" : [
+            "id": 1,
+            "imageURL": [
                 "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/6744427b6f794625bb01ae42016837d1_9366/love-unites-trefoil-tee-gender-neutral.jpg",
                 "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3bda0666abd74c91b22eae3200082f25_9366/Love_Unites_Trefoil_Tee_(Gender_Neutral)_Purple_HC3077_21_model.jpg"
             ],
             "title": "Love Unites Doodle Print Tee (Gender Neutral)",
             "category": "Originals",
-            "price": 40
+            "price": 40,
+            "data": "new"
         },
         {
-            "id": 1,
-            "imageURL" : [
+            "id": 2,
+            "imageURL": [
                 "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/17d61d8f5bc141f1a54fae470156d66f_9366/love-unites-doodle-print-tee-gender-neutral.jpg"
             ],
             "title": "Love Unites Trefoil Tee (Gender Neutral)",
             "category": "Originals",
-            "price": 45
+            "price": 45,
+            "data": "new"
         },
         {
-            "id": 2,
-            "imageURL" : [
+            "id": 3,
+            "imageURL": [
                 "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/0ad74f562a7f45c8a1deae1e00328d11_9366/superstar-pride-shoes.jpg"
             ],
             "title": "Superstar Pride Shoes",
             "category": "Originals",
-            "price": 100
+            "price": 100,
+            "data": "new"
         },
         {
-            "id": 3,
-            "imageURL" : [
+            "id": 4,
+            "imageURL": [
                 "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/10f1205e765e40eeb0d3ae05016130fe_9366/love-unites-trefoil-tee.jpg",
                 "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2f6dba4d2a3046cabb22adff003dea34_9366/Love_Unites_Trefoil_Tee_Purple_HG3899_01_laydown.jpg"
             ],
             "title": "Love Unites Trefoil Tee",
             "category": "Youth Originals",
-            "price": 25
-        },{
-            "id": 4,
-            "imageURL" : [
+            "price": 25,
+            "data": "new"
+        },
+        {
+            "id": 5,
+            "imageURL": [
                 "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/03d87f38d1bb4538a02eadbf014981a4_9366/ultraboost-22-shoes.jpg",
                 "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/49e5514bb83e4c5d8bf5ad9100ef2815_9366/Ultraboost_22_Shoes_White_GX5459_01_standard.jpg",
                 "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c2e0af3250d349abb9c6ad7a0088d90c_9366/Ultraboost_22_Shoes_Red_GX5462_01_standard.jpg",
@@ -159,9 +244,299 @@
             ],
             "title": "Ultraboost 22 Shoes",
             "category": "Running",
-            "price": 190
+            "price": 190,
+            "data": "new"
+        },
+        {
+            "id": 6,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/9b94b2a2cd854e5e90c3adf20047db54_9366/pride-simple-tote.jpg"
+            ],
+            "title": "Pride Simple Tote",
+            "category": "Originals",
+            "price": 30,
+            "data": "new"
+        },
+        {
+            "id": 7,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/e3b4e4ee47254443b02bae280112637d_9366/stan-smith-pride-shoes.jpg"
+            ],
+            "title": "Stan Smith Pride Shoes",
+            "category": "Originals",
+            "price": 120,
+            "data": "new"
+        },
+        {
+            "id": 8,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/e249d893034940f9a987ae0c0133d811_9366/love-unites-print-track-pants-gender-neutral.jpg"
+            ],
+            "title": "Love Unites Print Track Pants (Gender Neutral)",
+            "category": "Originals",
+            "price": 70,
+            "data": "new"
+        },
+        {
+            "id": 9,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/0ef5c965c610469ba0a8ae0b000b219a_9366/love-unites-sst-track-jacket-gender-neutral.jpg"
+            ],
+            "title": "Love Unites SST Track Jacket (Gender Neutral)",
+            "category": "Originals",
+            "price": 190,
+            "data": "new"
+        },
+        {
+            "id": 10,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/0a2153871d7b43f48ddaae0800aee34a_9366/forum-triple-platform-pride-low-shoes.jpg"
+            ],
+            "title": "Forum Triple Platform Pride Low Shoes",
+            "category": "Originals",
+            "price": 130,
+            "data": "new"
+        },
+        {
+            "id": 11,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/62bbb18ea7cf41baaa1cad8601729c85_9366/gamemode-knit-indoor-soccer-shoes.jpg"
+            ],
+            "title": "Gamemode Knit Indoor Soccer Shoes",
+            "category": "Soccer",
+            "price": 100,
+            "data": "new"
+        },
+        {
+            "id": 12,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/2f8f9b43cc7e4df98907adff00244ee6_9366/love-unites-print-track-jacket.jpg"
+            ],
+            "title": "Love Unites Print Track Jacket",
+            "category": "Youth Originals",
+            "price": 55,
+            "data": "new"
+        },
+        {
+            "id": 13,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/452f637d23f04b7b887cadca0078f9c9_9366/love-unites-loose-shorts.jpg"
+            ],
+            "title": "Love Unites Loose Shorts",
+            "category": "Women's Originals",
+            "price": 40,
+            "data": "new"
+        },
+        {
+            "id": 14,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/9ae14746f51b4666987eadff0004b93e_9366/love-unites-print-track-pants.jpg"
+            ],
+            "title": "Love Unites Print Track Pants",
+            "category": "Youth Originals",
+            "price": 45,
+            "data": "new"
+        },
+        {
+            "id": 13,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/18ff50f848ab4e18bdaeadb0007667d9_9366/pride-super-no-show-socks-3-pairs.jpg"
+            ],
+            "title": "Love Unites Loose Shorts",
+            "category": "Women's Originals",
+            "price": 15,
+            "data": "new"
+        },
+        {
+            "id": 14,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/bb2d5417718449f98ca1ade3001d4d1e_9366/love-unites-doodle-tee-dress-plus-size.jpg"
+            ],
+            "title": "Love Unites Doodle Tee Dress (Plus Size)",
+            "category": "Women's Originals",
+            "price": 50,
+            "data": "new"
+        },
+        {
+            "id": 15,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/452f637d23f04b7b887cadca0078f9c9_9366/love-unites-loose-shorts.jpg"
+            ],
+            "title": "Love Unites Loose Shorts",
+            "category": "Women's Originals",
+            "price": 40,
+            "data": "new"
+        },
+        {
+            "id": 16,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/0aad85a3e21c4903ad5dadb0008bb54f_9366/love-unites-crop-hoodie.jpg"
+            ],
+            "title": "Love Unites Crop Hoodie",
+            "category": "Originals",
+            "price": 70,
+            "data": "new"
+        },
+        {
+            "id": 17,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/2eccda9b7648493b888bade3001e7ba4_9366/love-unites-crop-hoodie-plus-size.jpg"
+            ],
+            "title": "Love Unites Crop Hoodie (Plus Size)",
+            "category": "Women's Originals",
+            "price": 70,
+            "data": "new"
+        },
+        {
+            "id": 18,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/515c0d61009b48b597a4ae060095448b_9366/campus-80s-pride-shoes.jpg"
+            ],
+            "title": "Campus 80s Pride Shoes",
+            "category": "Originals",
+            "price": 100,
+            "data": "new"
+        },
+        {
+            "id": 19,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/79a322bb5e8c4195b311ae8300c1890c_9366/kris-andrew-small-techfit-tights.jpg"
+            ],
+            "title": "Kris Andrew Small TECHFIT Tights",
+            "category": "Training",
+            "price": 50,
+            "data": "new"
+        },
+        {
+            "id": 20,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/25c9e1b2068d4ab192a6ad44002e4274_9366/pride-relaxed-hat.jpg"
+            ],
+            "title": "Pride Relaxed Hat",
+            "category": "Originals",
+            "price": 26,
+            "data": "new"
+        },
+        {
+            "id": 21,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/c15d01316a5c4dfc82b9adb00071c957_9366/pride-crew-socks-3-pairs.jpg"
+            ],
+            "title": "Pride Crew Socks 3 Pairs",
+            "category": "Originals",
+            "price": 20,
+            "data": "new"
         }
-        
+        ,
+        {
+            "id": 22,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/d5db8910dfcb420683edae27001406d1_9366/pride-reversible-bucket-hat.jpg"
+            ],
+            "title": "Pride Reversible Bucket Hat",
+            "category": "Originals",
+            "price": 35,
+            "data": "new"
+        },
+        {
+            "id": 23,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/6aa6d34817f84e5c91ecae1b00100248_9366/pride-icons-bucket-hat.jpg"
+            ],
+            "title": "Pride Icons Bucket Hat",
+            "category": "Originals",
+            "price": 32,
+            "data": "new"
+        },
+        {
+            "id": 24,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/f76ebe48eeba4b0dac62ae0c01344f67_9366/love-unites-overalls-gender-neutral.jpg"
+            ],
+            "title": "Love Unites Overalls (Gender Neutral)",
+            "category": "Originals",
+            "price": 120,
+            "data": "coming soon"
+        },
+        {
+            "id": 25,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/ece698f5d1c2451aa045adca007b51ef_9366/pride-hoodie-gender-neutral.jpg"
+            ],
+            "title": "Pride Hoodie (Gender Neutral)",
+            "category": "Essentials",
+            "price": 70,
+            "data": "coming soon"
+        },
+        {
+            "id": 26,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/55712716e6c84b63b4e4ae350102acea_9366/tiro-pride-track-jacket.jpg"
+            ],
+            "title": "Tiro Pride Track Jacket",
+            "category": "Sportswear",
+            "price": 65,
+            "data": "coming soon"
+        },
+        {
+            "id": 27,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/b37ae0672b384a41bf19ae3c00c819e7_9366/tiro-pride-track-pants.jpg"
+            ],
+            "title": "Tiro Pride Track Pants",
+            "category": "Sportswear",
+            "price": 60,
+            "data": "coming soon"
+        },
+        {
+            "id": 28,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/3a8758f6d4eb4767a693ae3e011b7929_9366/tiro-pride-track-pants-plus-size.jpg"
+            ],
+            "title": "Tiro Pride Track Pants (Plus Size)",
+            "category": "Women's Sportswear",
+            "price": 60,
+            "data": "coming soon"
+        },
+        {
+            "id": 29,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/2235fe7138004ea897b0ae3c00e8e200_9366/tiro-pride-track-jacket-plus-size.jpg"
+            ],
+            "title": "Tiro Pride Track Jacket (Plus Size)",
+            "category": "Women's Sportswear",
+            "price": 65,
+            "data": "coming soon"
+        },
+        {
+            "id": 30,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/b8d28bfb685b41498c42adde014d8ded_9366/tiro-pride-track-jacket.jpg"
+            ],
+            "title": "Tiro Pride Track Jacket",
+            "category": "Sportswear",
+            "price": 65,
+            "data": "coming soon"
+        },
+        {
+            "id": 31,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/c519c3793f4944bd84dfadc9000ff985_9366/tiro-pride-gender-neutral-jersey.jpg"
+            ],
+            "title": "Tiro Pride Gender-Neutral Jersey",
+            "category": "Sportswear",
+            "price": 50,
+            "data": "coming soon"
+        },
+        {
+            "id": 32,
+            "imageURL": [
+                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/33e57014bb3a45f8bd47ae24012fdab2_9366/tennis-pride-pack-y-dress.jpg"
+            ],
+            "title": "Tennis Pride Pack Y-Dress",
+            "category": "Women's Tennis",
+            "price": 120,
+            "data": "coming soon"
+        }
     ]
 }
- 
