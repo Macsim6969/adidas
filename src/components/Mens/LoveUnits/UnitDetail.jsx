@@ -13,7 +13,6 @@ const UnitDetail = () => {
     useEffect(()=>{
         axios.get(`http://localhost:3001/love/${id}`).then(resp =>{
             dispatch(setUnit(resp.data))
-            console.log(resp.data)
         })
     }, [id])
 

@@ -30,7 +30,8 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: flex-start;
+        gap: 15px;
         max-width: 1600px;
         margin: 0 auto;
         &_block {

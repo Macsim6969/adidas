@@ -1,7 +1,7 @@
 export const SET_UNIT = 'SET_UNIT'
 
 const initialState= {
-    unit: []
+    unit: null
 }
 
 export const unitsDetReducer = (state = initialState, action) => {
