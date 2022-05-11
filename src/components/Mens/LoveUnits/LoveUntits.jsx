@@ -1,4 +1,5 @@
 import axios from 'axios'
+import unit_content from '../../../img/mans/love/unit_content.jpg'
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { setUnits } from '../../../redux/action/units-action'
@@ -22,6 +23,12 @@ const LoveUntits = () => {
                 {units && units.map(p => {
                    return <Unit key={p.id} id={p.id} imageURL={p.imageURL} price={p.price} title={p.title} category={p.category} />
                 })}
+            </div>
+            <div className={l.units_content}>
+                <img src={unit_content} alt="" />
+                <div className={l.units_content_to}>
+                    <p>45454545454545</p>
+                </div>
             </div>
         </div>
     )

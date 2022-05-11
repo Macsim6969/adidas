@@ -1,7 +1,9 @@
 export const SET_UNIT = 'SET_UNIT'
+export const REMOVE_UNIT ='REMOVE_UNIT'
 
 const initialState= {
-    unit: null
+    unit: null,
+    isLoading: false
 }
 
 export const unitsDetReducer = (state = initialState, action) => {
@@ -11,7 +13,11 @@ export const unitsDetReducer = (state = initialState, action) => {
                 ...state,
                 unit: action.payload
             }
+        case REMOVE_UNIT:
+            return{
+
+            }
         default:
-            return state
+            return state 
     }
 }
