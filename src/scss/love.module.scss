@@ -48,21 +48,20 @@
                 align-items: flex-start;
                 padding-left: 10px;
                 margin-top: -30px;
-                &_price { 
+                &_price {
                     background-color: white;
                     width: auto;
                     padding: 3px 5px;
                 }
-                &_title{
+                &_title {
                     padding-top: 10px;
                 }
-                &_category{
+                &_category {
                     color: rgb(170, 170, 170);
                 }
-                &_count{
-                    
+                &_count {
                 }
-                p{
+                p {
                     margin-block-start: 0;
                     margin-block-end: 0;
                     font-size: 15px;
@@ -70,21 +69,46 @@
             }
         }
     }
-    .units_content{
+    .units_content {
         max-width: 1600px;
         margin: 0 auto;
-        position: relative;
-        img{
-            width: 880px;
+        display: flex;
+        flex-direction: row;
+        img {
+            width: 55%;
             display: flex;
             align-items: flex-start;
         }
-        &_to{
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            padding: 20px 25px ;
+        &_to {
+            width: 45%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-end;
+            flex-direction: column;
+            padding: 20px 25px;
             background-color: white;
+            p {
+                text-align: left;
+                font-size: 17px;
+                margin: 0;
+            }
+            &_title {
+                padding-bottom: 10px;
+                font-weight: bold;
+            }
+            &_info {
+                padding-bottom: 25px;
+            }
+            .units_link {
+                color: black;
+                text-decoration: none;
+                padding: 2px;
+            }
+            .units_link:hover {
+                background-color: black;
+                color: white;
+                transition: all 0.6s ease-out;
+            }
         }
     }
 }

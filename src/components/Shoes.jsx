@@ -14,7 +14,7 @@ const Shoes = ({ category_rg, onCLickCategory, onClickSortBy }) => {
 
   const { category, sortBy } = useSelector(({ filter }) => filter)
 
-  const [sort, setSort] = useState(false)
+  const [sort, setSort] = useState(false) 
   const showSort = () => {
     setSort(!sort)
   }
@@ -59,7 +59,7 @@ const Shoes = ({ category_rg, onCLickCategory, onClickSortBy }) => {
             </div>
           }
         </div>
-      </div>
+      </div> 
       <div className={s.main_shoes}>
         {isLoading ? <ShoesContent /> : <MyLoader />}
 

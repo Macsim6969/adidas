@@ -5,11 +5,17 @@
         flex-direction: row;
         &_lf {
             position: relative;
-            width: 70%;
+            width: 72%;
             height: 664px;
             background-color: #eceef0;
             &_inf {
                 max-width: 664px;
+            }
+            .unit_content_lf_info{
+                position: absolute;
+                max-width: 664px;
+                top: -500px; 
+                left: 0;
             }
             &_data {
                 position: absolute;
@@ -32,9 +38,13 @@
                 position: absolute;
                 top: 15px;
                 left: 35px;
-                p {
+                p { 
                     margin: 0;
                 }
+            }
+            .img_look{
+                width: 50px;
+                padding-right: 10px;
             }
             .unit_return:hover{
                 background-color: black;
@@ -44,7 +54,7 @@
             }
         }
         &_rg {
-            width: 30%;
+            width: 27%;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
@@ -63,6 +73,27 @@
                 padding-top: 15px;
                 font-size: 20px;
                 font-weight: 600;
+            }
+            .unit_content_size{
+                padding-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1px;
+                flex-direction: row;
+                
+            }
+            &_bag{
+                cursor: pointer;
+                margin-top: 35px;
+                background-color: black;
+                padding: 15px 50px 15px 25px;
+                color: white;
+                font-weight: bold;
+            }
+            &_bag:hover{
+                margin-top: 35px;
+                transform: scale(0.96);
+                transition: all 0.3s ease-out;
             }
         }
     }

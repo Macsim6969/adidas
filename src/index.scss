@@ -22,7 +22,7 @@ code {
 
 .active_ct{
   background-color: black;
-  padding: 10px 16px;
+  padding: 10px 16px; 
   cursor: pointer;
   border-radius: 10px;
   color: white;
@@ -42,4 +42,27 @@ code {
   background-color: aliceblue;
   color: black;
   pointer-events: none;
+}
+
+.inner{
+  cursor: pointer;
+  padding: 12px 15px;
+  color: black;
+  font-size: 18px; 
+  border: 1px solid black;
+}
+.inner:hover{
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+.size_active{
+  font-weight: bold;
+  padding: 12px 15px;
+  font-size: 18px; 
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 0;
 }

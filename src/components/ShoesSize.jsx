@@ -9,7 +9,7 @@ const ShoesSize = ({ sizes }) => {
 
     const choiceSize = (index) => {
         setItemSize(index)
-    }
+    } 
 
     return (
         <div className={s.main_shoes_cart_choice_size}>

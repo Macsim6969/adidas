@@ -2,6 +2,7 @@ import { useDispatch } from 'react-redux';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import { Main, Shoes } from './components';
+import UnitBlog from './components/Blog/UnitBlog';
 import Cart from './components/Cart';
 import Clothe from './components/Clothe';
 import Header from './components/Header';
@@ -19,6 +20,8 @@ function App() {
   const onCSelectSortBy = (type) =>{
     dispatch(setSort(type))
   }
+
+  
   return (
     <div className="App">
       <Header />
@@ -27,10 +30,11 @@ function App() {
           <Route path='/' element={<Main />} />
           <Route path='/men*' element={<Mens/>}/>
           <Route path='/pride*' element={<LoveUntits/>}/>
-          <Route path='/pride/:id' element={<UnitDetail/>}/>
+          <Route path='/pride/:id' element={<UnitDetail />}/>
           <Route path='/shoes*' element={<Shoes category_rg={[{name:'price' ,type:'Price'}, {name:'popular', type:'Popular'}, {name:'newest', type:'Newest'}]} onCLickCategory={onSelectCategory} onClickSortBy={onCSelectSortBy} />} />
           <Route path='/clothing*' element={<Clothe item={['Price', 'Popular', 'Newest']} onCLickCategory={onSelectCategory} />} />
           <Route path='/cart*' element={<Cart />} />
+          <Route path='/blog-unit' element={<UnitBlog/>} />
           <Route>404</Route>
         </Routes>
       </div>
