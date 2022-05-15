@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import m from '../../scss/mens.module.scss'
+import MensCategStory from './MensChoise/MensCategStory'
 import  MensChoice  from './MensChoise/MensChoice'
 
 const Mens = () => {
@@ -14,7 +15,8 @@ const Mens = () => {
                 </div>
             </div>
             <div className={m.header_choice}>
-                <MensChoice/>
+                <MensChoice/> 
+                <MensCategStory/>
             </div>
         </div>
     )

@@ -1,0 +1,39 @@
+.story {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    &_categ {
+        width: 382px;
+        height: 630px;
+        &_story {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            text-decoration: none;
+            color: black;
+            &_img {
+                width: 382px;
+                height: 510px;
+            }
+            p{
+                margin: 0;
+                text-align: left;
+            }
+            &_title{
+                padding: 15px 0;
+                font-weight: 500;
+                font-size: 20px;
+                text-transform: uppercase;
+            }
+            &_text{
+                color: grey;
+            }
+            &_link{
+                padding-top: 20px;
+                font-weight: 600;
+                text-transform: uppercase;
+                text-decoration: underline;
+            }
+        }
+    }
+}

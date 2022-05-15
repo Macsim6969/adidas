@@ -1,99 +1,117 @@
 .unit {
     margin-top: 30px;
+    height: auto;
     &_content {
         display: flex;
         flex-direction: row;
-        &_lf {
-            position: relative;
+        &_inner {
+            flex-direction: column;
             width: 72%;
-            height: 664px;
-            background-color: #eceef0;
-            &_inf {
-                max-width: 664px;
-            }
-            .unit_content_lf_info{
-                position: absolute;
-                max-width: 664px;
-                top: -500px; 
-                left: 0;
-            }
-            &_data {
-                position: absolute;
-                top: 70px;
-                right: 0;
-                font-size: 22px;
-                background-color: white;
-                text-transform: uppercase;
-                padding: 5px 12px;
-                transform: rotate(270deg);
-                font-style: italic;
-            }
-            .unit_return {
-                text-decoration: none;
-                color: black;
-                display: flex;
-                gap: 10px;
-                flex-direction: row;
-                align-items: center;
-                position: absolute;
-                top: 15px;
-                left: 35px;
-                p { 
-                    margin: 0;
+            &_lf {
+                position: relative;
+                height: 664px;
+                background-color: #eceef0;
+                margin-bottom: 150px;
+                &_inf {
+                    max-width: 664px;
+                }
+                .unit_content_lf_info {
+                    position: absolute;
+                    max-width: 664px;
+                    top: -500px;
+                    left: 0;
+                }
+                &_data {
+                    position: absolute;
+                    top: 70px;
+                    right: 0;
+                    font-size: 22px;
+                    background-color: white;
+                    text-transform: uppercase;
+                    padding: 5px 12px;
+                    transform: rotate(270deg);
+                    font-style: italic;
+                }
+                .unit_return {
+                    text-decoration: none;
+                    color: black;
+                    display: flex;
+                    gap: 10px;
+                    flex-direction: row;
+                    align-items: center;
+                    position: absolute;
+                    top: 15px;
+                    left: 35px;
+                    p {
+                        margin: 0;
+                    }
+                }
+                .unit_return:hover {
+                    background-color: black;
+                    color: white;
+                    padding: 5px 8px;
+                    transition: all 0.5s ease-out;
+                }
+                .unit_img_size{
+                    margin-top: 15px;
+                    gap: 10px;
+                    display: flex; 
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    &_change{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 10px;
+                    }
                 }
             }
-            .img_look{
-                width: 50px;
-                padding-right: 10px;
-            }
-            .unit_return:hover{
-                background-color: black;
-                color: white;
-                padding: 5px 8px;
-                transition: all 0.5s ease-out;
-            }
         }
-        &_rg {
+        &_in {
             width: 27%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
             padding: 25px 30px;
-            p {
-                margin: 0;
-            }
-            &_title {
-                padding-top: 20px;
-                font-size: 35px;
-                font-style: italic;
-                font-weight: 500;
-                text-align: left;
-            }
-            &_price {
-                padding-top: 15px;
-                font-size: 20px;
-                font-weight: 600;
-            }
-            .unit_content_size{
-                padding-top: 30px;
+            border-left: 1px solid rgb(190, 190, 190);
+            min-height: 100vh;
+            &_rg {
+                position: fixed;
                 display: flex;
-                flex-wrap: wrap;
-                gap: 1px;
-                flex-direction: row;
-                
-            }
-            &_bag{
-                cursor: pointer;
-                margin-top: 35px;
-                background-color: black;
-                padding: 15px 50px 15px 25px;
-                color: white;
-                font-weight: bold;
-            }
-            &_bag:hover{
-                margin-top: 35px;
-                transform: scale(0.96);
-                transition: all 0.3s ease-out;
+                align-items: flex-start;
+                flex-direction: column;
+                p {
+                    margin: 0;
+                }
+                &_title {
+                    padding-top: 20px;
+                    font-size: 35px;
+                    font-style: italic;
+                    font-weight: 500;
+                    text-align: left;
+                }
+                &_price {
+                    padding-top: 15px;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                .unit_content_size {
+                    padding-top: 30px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 1px;
+                    flex-direction: row;
+                }
+                &_bag {
+                    cursor: pointer;
+                    margin-top: 35px;
+                    background-color: black;
+                    padding: 15px 50px 15px 25px;
+                    color: white;
+                    font-weight: bold;
+                }
+                &_bag:hover {
+                    margin-top: 35px;
+                    transform: scale(0.96);
+                    transition: all 0.3s ease-out;
+                }
             }
         }
     }

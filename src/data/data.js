@@ -22,3 +22,10 @@ export const sizes = [
     {size: 'XL'},
     {size: '2XL'},
 ]
+
+export const mens_story = [
+    {imageULR: 'https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/ss22-pride-launch-hp-glp-teasercarousel-v1_tcm221-886390.jpg' , title: 'LOVE UNITES' , text: 'Inclusive & optimistic. Proud & diverse. The Pride collab with Kris Andrew Small is here.', linkTo: 'SHOP NOW', link: 'men-pride'},
+    {imageULR: 'https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/training-ss22-pushup-mh-teaser-blog_tcm221-856327.jpg' , title: 'PUSH-UP WORKOUTS' , text: 'Learn proper push-up form and try 10 different push-up variations to build full-body strength.', linkTo: 'Learn More', link: 'forum-push'},
+    {imageULR: 'https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/originals-ss22-forum-mh-teaser-blog_tcm221-856329.jpg' , title: 'FORUM SIZE GUIDE' , text: 'Born for the hardwood, evolved for everyday style.', linkTo: 'Learn More', link: 'forum-size'},
+    {imageULR: 'https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/training-ss22-restdays-mh-tease_tcm221-854900.jpg' , title: 'REST DAY WORKOUTS' , text: 'Learn how these low-impact workouts are the key to coming back stronger.', linkTo: 'Learn More', link: 'forum-workout'}
+]

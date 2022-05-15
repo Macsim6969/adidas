@@ -201,7 +201,41 @@
             "title": "Love Unites Doodle Print Tee (Gender Neutral)",
             "category": "Originals",
             "price": 40,
-            "data": "new"
+            "data": "new",
+            "head": "Show your Pride in this comfortable and colorful t-shirt.",
+            "text": "The 2022 adidas X Kris Andrew Small Pride Collection was inspired by the Stonewall Activists of the Stonewall Uprising in 1969. Together adidas and Kris Andrew Small offer a collection in solidarity & celebration of the LGBTQIA+ community's past & present, honouring unique belonging – creating a  colourful & diverse graphic message among this inclusive & optimistic collection. This partnership is also adjacent to adidas' two key Global Purpose Partners, Athlete Ally & Stonewall UK. Stand proud and celebrate the unifying power of love in this adidas t-shirt made to honour LGBTQ+ communities. Artwork from Kris Andrew Small practically vibrates with kinetic energy, drawing the spotlight to a Trefoil logo on the front — a symbol of authenticity and originality. This t-shirt was made using UNITEFIT — an all-gender fit system that was created with a spectrum of sizes, genders and forms in mind. Our cotton products support more sustainable cotton farming.",
+            "washing": "Washing instructions",
+            "instruction": [
+                { "img": "https://www.adidas.com/glass/react/98d6566/assets/img/washing-instructions/B1.svg", "step": "Do not bleach"},
+                { "img": "https://www.adidas.com/glass/react/98d6566/assets/img/washing-instructions/C2.svg", "step": "Tumble dry low heat"},
+                { "img": "https://www.adidas.com/glass/react/98d6566/assets/img/washing-instructions/E1.svg", "step": "Do not dry clean"},
+                { "img": "https://www.adidas.com/glass/react/98d6566/assets/img/washing-instructions/D2.svg", "step": "Touch up with cool iron"},
+                { "img": "https://www.adidas.com/glass/react/98d6566/assets/img/washing-instructions/A3.svg", "step": "Machine wash cold"}
+            ],
+            "information": "Extra care information",
+            "info_dop": [
+                {"dop" : "Do not use fabric softener"},
+                {"dop" : "Use mild detergent only"},
+                {"dop" : "Wash and dry inside out"},
+                {"dop" : "Wash with like colors"},
+                {"dop" : "Do not iron print"}
+            ],
+            "specification": "Specifications",
+            "specific": [
+                {"spec": "Ribbed crewneck"},
+                {"spec": "100% cotton single jersey"},
+                {"spec": "Supports the Better Cotton Initiative"},
+                {"spec": "Imported"},
+                {"spec": "Product color: White / Multicolor"},
+                {"spec": "Product code: HC3076"}
+            ],
+            "story": [
+             {"image": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/ss22-pride-launch-pdp-statement-v2-d_tcm221-879237.jpg", "width": "305px" },
+             {"image": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/ss22-pride-launch-pdp-statementcitation-d_tcm221-876853.jpg", "width": "572px"}
+            ],
+            "story_txt" : "When I was younger, I was so scared to be queer. What gave me strength was when I started actually showing that side of me and putting it in my work. It made me feel liberated and free.",
+            "author": "- Kris Andrew Small"
+            
         },
         {
             "id": 2,
@@ -426,8 +460,7 @@
             "category": "Originals",
             "price": 20,
             "data": "new"
-        }
-        ,
+        },
         {
             "id": 24,
             "imageURL": [

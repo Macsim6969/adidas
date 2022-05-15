@@ -1,0 +1,142 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    &_top {
+        max-width: 890px;
+        padding: 0 35px 50px 35px;
+        margin: 0 auto;
+        &_head {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            align-items: center;
+            &_block {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 20px;
+                p {
+                    margin: 0;
+                    text-align: left;
+                }
+                &_title {
+                    font-size: 30px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+                &_head {
+                    font-size: 26px;
+                    font-weight: 400;
+                    font-style: italic;
+                    text-transform: uppercase;
+                }
+                &_text {
+                    font-size: 16px;
+                    color: gray;
+                }
+            }
+            &_img {
+                width: 430px;
+                height: 430px;
+            }
+        }
+        &_dop {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 40px;
+            &_instruction {
+                flex-direction: column;
+                justify-content: space-between;
+                width: 48%;
+                &_logo {
+                    font-size: 30px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    text-align: left;
+                }
+                &_inner {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    padding: 0;
+                    &_step {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        gap: 10px;
+                        &_img {
+                            width: 24px;
+                        }
+                    }
+                }
+            }
+            &_information {
+                width: 52%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                &_logo {
+                    font-size: 30px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+                &_inner {
+                    margin: 0;
+                }
+            }
+        }
+        &_spec {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            &_log {
+                font-size: 30px;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            &_filt {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                gap: 25px;
+                @media (max-width: 990px) {
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+                &_inner {
+                    width: 45%;
+                    text-align: left;
+                    @media (max-width: 990px) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    &_story {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        max-width: 1190px;
+        margin: 0 auto;
+        &_head {
+            width: 100%;
+        }
+        &_info{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 250px;
+            width: 55%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @media (max-width:1240px) {
+                bottom: 150px;
+            }
+        }
+    }
+}
