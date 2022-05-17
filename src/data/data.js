@@ -12,6 +12,19 @@ export const category_cl = [
     {cat: 'Tiro'}
 ]
 
+export const mensShoesCateg = [
+    {shoes: 'Sneakers'},
+    {shoes: 'Running'},
+    {shoes: 'Soccer'},
+    {shoes: 'Sandals & Slides'},
+    {shoes: 'Outdoor & Hiking'},
+    {shoes: 'Training & Gym'},
+    {shoes: 'Basketball'},
+    {shoes: 'Baseball'},
+
+
+]
+
 export const sizes = [
     {size: '3XS'},
     {size: '2XS'},

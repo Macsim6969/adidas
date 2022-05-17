@@ -191,6 +191,49 @@
             "popular": 23
         }
     ],
+    "menshoes": [
+        {
+            "id": 1,
+            "imageURL": [
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/cefeab9f0256490eb47dadf30022fdf4_9366/Ultraboost_Web_DNA_Shoes_Grey_GZ1592_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/882a4dfc249944afa3a7ad430109301a_9366/Ultraboost_Web_DNA_Shoes_Purple_GY4170_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a99143e670c44b68bca1ad420137326e_9366/Ultraboost_Web_DNA_Shoes_Yellow_GY4172_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bd5bb2a58bdb485ea262adcb00fd470f_9366/Ultraboost_Web_DNA_Shoes_Black_GY8091_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a10e46a2baba4f149b49adcb010ac9fb_9366/Ultraboost_Web_DNA_Shoes_White_GZ1593_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/68c2c9f823864c989889adf3002540ec_9366/Ultraboost_Web_DNA_Shoes_Grey_GZ1594_01_standard.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "imageURL": [
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/caf91fd85f804b9492b3ae0b001b028a_9366/Ultraboost_1.0_DNA_Shoes_Purple_GV9591_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/437a6a8387e040968faead1701745d63_9366/Ultraboost_1.0_DNA_Shoes_Burgundy_GW0266_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c1c3c40e45424a79ad88adcb0102aff8_9366/Ultraboost_1.0_DNA_Shoes_White_GX2944_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4d8c5bb222fa420c9a14ac6d012069dd_9366/Ultraboost_DNA_1.0_Shoes_Turquoise_H05263_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/cdfdf1409e054322b9e0ac6d011da5e2_9366/Ultraboost_DNA_1.0_Shoes_Green_H05264_01_standard.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "imageURL": [
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/87e278ebf8cf4706a3bda7fa00e450a5_9366/Busenitz_Pro_Shoes_Black_G48060_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d262fddc5317473ea804acc300602d94_9366/Busenitz_Pro_Shoes_Green_GZ8370_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/419a9d29e7204e9a9b34adc9000395b2_9366/Busenitz_Shoes_White_GY3650_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ee81bf93c34b494cb1f7acc3005c2559_9366/Busenitz_Shoes_White_H03346_01_standard.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "imageURL": [
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b174bd7c569847f8b42dadee014665f3_9366/NMD_V3_Shoes_White_GX3379_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9cc783f0e0f5443ba76bade300846299_9366/NMD_V3_Shoes_White_GX3374_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6b8cecdd204a44c3a456adfb0005f0f1_9366/NMD_V3_Shoes_Purple_GW3062_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d96de4432d7a4b29be12ae0b00dba127_9366/NMD_V3_Shoes_White_GW3063_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9193f5db9f3e45caaad8adfd01072020_9366/NMD_V3_Shoes_Black_GZ4353_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7348553c641f4da7b881adf80119295a_9366/NMD_V3_Shoes_Black_GX3373_01_standard.jpg"
+            ]
+        }
+    ],
     "love": [
         {
             "id": 1,
@@ -206,36 +249,78 @@
             "text": "The 2022 adidas X Kris Andrew Small Pride Collection was inspired by the Stonewall Activists of the Stonewall Uprising in 1969. Together adidas and Kris Andrew Small offer a collection in solidarity & celebration of the LGBTQIA+ community's past & present, honouring unique belonging – creating a  colourful & diverse graphic message among this inclusive & optimistic collection. This partnership is also adjacent to adidas' two key Global Purpose Partners, Athlete Ally & Stonewall UK. Stand proud and celebrate the unifying power of love in this adidas t-shirt made to honour LGBTQ+ communities. Artwork from Kris Andrew Small practically vibrates with kinetic energy, drawing the spotlight to a Trefoil logo on the front — a symbol of authenticity and originality. This t-shirt was made using UNITEFIT — an all-gender fit system that was created with a spectrum of sizes, genders and forms in mind. Our cotton products support more sustainable cotton farming.",
             "washing": "Washing instructions",
             "instruction": [
-                { "img": "https://www.adidas.com/glass/react/98d6566/assets/img/washing-instructions/B1.svg", "step": "Do not bleach"},
-                { "img": "https://www.adidas.com/glass/react/98d6566/assets/img/washing-instructions/C2.svg", "step": "Tumble dry low heat"},
-                { "img": "https://www.adidas.com/glass/react/98d6566/assets/img/washing-instructions/E1.svg", "step": "Do not dry clean"},
-                { "img": "https://www.adidas.com/glass/react/98d6566/assets/img/washing-instructions/D2.svg", "step": "Touch up with cool iron"},
-                { "img": "https://www.adidas.com/glass/react/98d6566/assets/img/washing-instructions/A3.svg", "step": "Machine wash cold"}
+                {
+                    "img": "https://www.adidas.com/glass/react/98d6566/assets/img/washing-instructions/B1.svg",
+                    "step": "Do not bleach"
+                },
+                {
+                    "img": "https://www.adidas.com/glass/react/98d6566/assets/img/washing-instructions/C2.svg",
+                    "step": "Tumble dry low heat"
+                },
+                {
+                    "img": "https://www.adidas.com/glass/react/98d6566/assets/img/washing-instructions/E1.svg",
+                    "step": "Do not dry clean"
+                },
+                {
+                    "img": "https://www.adidas.com/glass/react/98d6566/assets/img/washing-instructions/D2.svg",
+                    "step": "Touch up with cool iron"
+                },
+                {
+                    "img": "https://www.adidas.com/glass/react/98d6566/assets/img/washing-instructions/A3.svg",
+                    "step": "Machine wash cold"
+                }
             ],
             "information": "Extra care information",
             "info_dop": [
-                {"dop" : "Do not use fabric softener"},
-                {"dop" : "Use mild detergent only"},
-                {"dop" : "Wash and dry inside out"},
-                {"dop" : "Wash with like colors"},
-                {"dop" : "Do not iron print"}
+                {
+                    "dop": "Do not use fabric softener"
+                },
+                {
+                    "dop": "Use mild detergent only"
+                },
+                {
+                    "dop": "Wash and dry inside out"
+                },
+                {
+                    "dop": "Wash with like colors"
+                },
+                {
+                    "dop": "Do not iron print"
+                }
             ],
             "specification": "Specifications",
             "specific": [
-                {"spec": "Ribbed crewneck"},
-                {"spec": "100% cotton single jersey"},
-                {"spec": "Supports the Better Cotton Initiative"},
-                {"spec": "Imported"},
-                {"spec": "Product color: White / Multicolor"},
-                {"spec": "Product code: HC3076"}
+                {
+                    "spec": "Ribbed crewneck"
+                },
+                {
+                    "spec": "100% cotton single jersey"
+                },
+                {
+                    "spec": "Supports the Better Cotton Initiative"
+                },
+                {
+                    "spec": "Imported"
+                },
+                {
+                    "spec": "Product color: White / Multicolor"
+                },
+                {
+                    "spec": "Product code: HC3076"
+                }
             ],
             "story": [
-             {"image": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/ss22-pride-launch-pdp-statement-v2-d_tcm221-879237.jpg", "width": "305px" },
-             {"image": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/ss22-pride-launch-pdp-statementcitation-d_tcm221-876853.jpg", "width": "572px"}
+                {
+                    "image": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/ss22-pride-launch-pdp-statement-v2-d_tcm221-879237.jpg",
+                    "width": "305px"
+                },
+                {
+                    "image": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/ss22-pride-launch-pdp-statementcitation-d_tcm221-876853.jpg",
+                    "width": "572px"
+                }
             ],
-            "story_txt" : "When I was younger, I was so scared to be queer. What gave me strength was when I started actually showing that side of me and putting it in my work. It made me feel liberated and free.",
+            "story_txt": "When I was younger, I was so scared to be queer. What gave me strength was when I started actually showing that side of me and putting it in my work. It made me feel liberated and free.",
             "author": "- Kris Andrew Small"
-            
         },
         {
             "id": 2,
@@ -250,7 +335,7 @@
         {
             "id": 3,
             "imageURL": [
-                "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/0ad74f562a7f45c8a1deae1e00328d11_9366/superstar-pride-shoes.jpg"
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c4eef76ad3664fb19a7dae1e00326612_9366/Superstar_Pride_Shoes_White_GX6395_01_standard.jpg"
             ],
             "title": "Superstar Pride Shoes",
             "category": "Originals",

@@ -9,6 +9,7 @@ import Header from './components/Header';
 import LoveUntits from './components/Mens/LoveUnits/LoveUntits';
 import UnitDetail from './components/Mens/LoveUnits/UnitDetail';
 import Mens from './components/Mens/Mens';
+import MenShoes from './components/Mens/Shoes/MenShoes';
 import { setCategory , setSort} from './redux/action/filter-action';
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path='/clothing*' element={<Clothe item={['Price', 'Popular', 'Newest']} onCLickCategory={onSelectCategory} />} />
           <Route path='/cart*' element={<Cart />} />
           <Route path='/blog-unit' element={<UnitBlog/>} />
+          <Route path='/men-sneakers' element={<MenShoes/>} />
           <Route>404</Route>
         </Routes>
       </div>

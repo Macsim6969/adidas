@@ -10,7 +10,7 @@ const MensChoice = () => {
     return (
         <>
             <div className={m.choice_block}>
-                <Link className={m.choice_block_inner} to={'men-sneakers'} >
+                <Link className={m.choice_block_inner} to={'/men-sneakers'} >
                     <div className={m.choice_block_inner_content}>
                         <img className={m.choice_block_inner_content_img} src={sneekers} alt="sneakers" />
                         <p className={m.choice_block_inner_content_cat}>sneakers</p>
