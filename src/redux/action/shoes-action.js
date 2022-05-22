@@ -9,7 +9,7 @@ export const fetchShoes = (category, sortBy) => (dispatch) => {
     })
 }
 
-export const setShoes = (items) => ({
+export const setShoes = (items) => ({ 
     type: SET_SHOES,
     payload: items
 })
