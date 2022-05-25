@@ -13,14 +13,14 @@ export const category_cl = [
 ]
 
 export const mensShoesCateg = [
-    {shoes: 'Sneakers'},
-    {shoes: 'Running'},
-    {shoes: 'Soccer'},
-    {shoes: 'Sandals & Slides'},
-    {shoes: 'Outdoor & Hiking'},
-    {shoes: 'Training & Gym'},
-    {shoes: 'Basketball'},
-    {shoes: 'Baseball'},
+    {id : 1 ,shoes: 'Sneakers'},
+    {id : 2 ,shoes: 'Running'},
+    {id : 3 ,shoes: 'Soccer'},
+    {id : 4 ,shoes: 'Sandals & Slides'},
+    {id : 5 ,shoes: 'Outdoor & Hiking'},
+    {id : 6 ,shoes: 'Training & Gym'},
+    {id : 7 ,shoes: 'Basketball'},
+    {id : 8 ,shoes: 'Baseball'},
 
 
 ]
