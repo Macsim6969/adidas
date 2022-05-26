@@ -20,9 +20,6 @@ export const mensShoesCateg = [
     {id : 5 ,shoes: 'Outdoor & Hiking'},
     {id : 6 ,shoes: 'Training & Gym'},
     {id : 7 ,shoes: 'Basketball'},
-    {id : 8 ,shoes: 'Baseball'},
-
-
 ]
 
 export const sizes = [
