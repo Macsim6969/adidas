@@ -17,7 +17,7 @@ const UnitDetail = () => {
     const [images, setImages] = useState()
 
     useEffect(() => {
-        axios.get(`http://localhost:3001/love/${id}`).then(resp => {
+        axios.get(`https://6293babe7aa3e6af1a102469.mockapi.io/adidas/menshoes/love?id=${id}`).then(resp => {
             dispatch(setUnit(resp.data))
             dispatch(setGallery(resp.data.imageURL))
             setImages(resp.data.imageURL[0])
@@ -25,11 +25,9 @@ const UnitDetail = () => {
         dispatch(removeUnit())
     }, [id])
 
-
     const setSize = (value) => {
         dispatch(setSizeBy(value))
     }
-
 
 
 
@@ -46,7 +44,7 @@ const UnitDetail = () => {
                                 <p className={u.unit_return_back}>Back</p>
                             </Link>
                             <div className={u.unit_img_size}>
-                                <p>Colors: {unit.imageURL.length}</p>
+                                {/* <p>Colors: {unit.imageURL.length}</p> */}
                                 <div className={u.unit_img_size_change}>
                                     {gallery && gallery.map((i, index) => {
                                         return <img key={i} onClick={() => setImages(i)} className={images === i ? 'img_active' : 'img_look'} src={i} alt="" />
@@ -54,7 +52,7 @@ const UnitDetail = () => {
                                 </div>
                             </div>
                         </div>
-                        <UnitDetailInfo images={images} {...unit}/>
+                        <UnitDetailInfo images={images} {...unit} />
                     </div>
                     <div className={u.unit_content_in}>
                         <div className={u.unit_content_in_rg}>

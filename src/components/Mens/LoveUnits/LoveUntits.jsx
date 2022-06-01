@@ -11,7 +11,7 @@ const LoveUntits = () => {
     const dispatch = useDispatch()
     const units = useSelector((state) => state.unit.units)
     useEffect(() => {
-        axios.get('http://localhost:3001/love').then(({ data }) => {
+        axios.get('https://6293babe7aa3e6af1a102469.mockapi.io/adidas/menshoes/love').then(({ data }) => {
             dispatch(setUnits(data))
         })
     }, [])

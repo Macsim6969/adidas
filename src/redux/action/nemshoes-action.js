@@ -31,7 +31,7 @@ const setInfoCategory = (info) =>({
     payload: info
 })
 export const fetchInfoCategory = (category) => (dispatch) =>{
-    axios.get(`https://6293babe7aa3e6af1a102469.mockapi.io/adidas/menshoes/infoCateg=${category}`).then(resp =>{
+    axios.get(`https://6293babe7aa3e6af1a102469.mockapi.io/adidas/menshoes/infoCateg?category=${category}`).then(resp =>{
         dispatch(setInfoCategory(resp.data))
     })
 }
