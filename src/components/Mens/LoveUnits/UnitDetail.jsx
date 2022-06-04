@@ -13,14 +13,14 @@ const UnitDetail = () => {
     const dispatch = useDispatch()
     const { unit, gallery, sizeBy } = useSelector((state) => state.unitDetails)
     const { id } = useParams()
-
+ 
     const [images, setImages] = useState()
 
     useEffect(() => {
         axios.get(`https://6293babe7aa3e6af1a102469.mockapi.io/adidas/menshoes/love?id=${id}`).then(resp => {
-            dispatch(setUnit(resp.data))
-            dispatch(setGallery(resp.data.imageURL))
-            setImages(resp.data.imageURL[0])
+            dispatch(setUnit(resp.data[0]))
+            dispatch(setGallery(resp.data[0].imageURL))
+            setImages(resp.data[0].imageURL[0])
         })
         dispatch(removeUnit())
     }, [id])

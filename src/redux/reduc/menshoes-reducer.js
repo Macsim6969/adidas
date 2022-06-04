@@ -2,11 +2,13 @@ export const SET_SNEAKERS = 'SET_SNEAKERS'
 export const SET_MEN_CATEGORY = 'SET_MEN_CATEGORY'
 export const SET_LAODING = 'SET_LAODING'
 export const SET_INFO_CATEGORY = 'SET_INFO_CATEGORY'
+export const SET_SORT = 'SET_SORT'
 
 const initialState = {
     sneakers: [],
     infoCategory: [] || null,
     category: 0,
+    sort: 0,
     isLoading: false
 }
 
@@ -31,6 +33,11 @@ export const menShoesReducer = (state = initialState, action) => {
             return{
                 ...state,
                 infoCategory: action.payload
+            }
+        case SET_SORT:
+            return{
+                ...state,
+                sort: action.payload
             }
         default:
             return state
