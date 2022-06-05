@@ -3,28 +3,25 @@ import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { mensShoesCateg } from '../../../data/data'
-import { fetchInfoCategory, fetchShoes, setMenCategory, setSort } from '../../../redux/action/nemshoes-action'
+import { fetchInfoCategory, fetchShoes, setMenCategory } from '../../../redux/action/nemshoes-action'
 import sn from '../../../scss/sneakers.module.scss'
 import '../../../scss/active.scss'
 import MenShoesThings from './MenShoesThings'
 import MyLoader from '../../ShoesLoader'
 
 const MenShoes = () => {
-    const { sneakers, category, sort, isLoading, infoCategory } = useSelector(({ sneak }) => sneak)
+    const { sneakers, category, isLoading, infoCategory } = useSelector(({ sneak }) => sneak)
 
     const dispatch = useDispatch()
     useEffect(() => {
         dispatch(fetchShoes(category))
         dispatch(fetchInfoCategory(category))
-    }, [category, sort])
+    }, [category])
 
     const setCateg = (categ) => {
         dispatch(setMenCategory(categ))
     }
 
-    const setSortCat = (sort) =>{
-        dispatch(setSort(sort))
-    }
 
     return (
         <div className={sn.sneaker}>
@@ -51,7 +48,7 @@ const MenShoes = () => {
                             {mencat.shoes}
                         </nav>
                     })}
-                    <p onClick={() => setSortCat(1)}>calendar</p>
+                    
                 </div>
                 <>
                     {isLoading ? <MenShoesThings sneakers={sneakers} /> : <MyLoader />}

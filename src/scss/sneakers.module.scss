@@ -50,6 +50,7 @@
             justify-content: flex-start;
             width: 100%;
             margin-bottom: 25px;
+            z-index: 99999;
             border-bottom: 1px solid gainsboro;
             &_inner {
                 color: rgb(126, 126, 126);
@@ -61,12 +62,27 @@
             flex-wrap: wrap;
             justify-content: space-between;
             gap: 10px;
-            .sneaker_cont_sneak_shoes {
-                .sneaker_cont_sneak_shoes_pict {
+            &_shoes {
+                position: relative;
+                &_pict {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 400px;
+                    height: 400px;
                     width: 400px;
                     height: 400px;
                 }
+                &_pict_hover {
+                    width: 400px;
+                    height: 400px;
+                }
+                &_pict:hover {
+                    display: none;
+                    
+                }
             }
+            
         }
     }
 }
