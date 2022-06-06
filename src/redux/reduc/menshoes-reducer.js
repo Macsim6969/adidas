@@ -6,7 +6,7 @@ export const SET_INFO_CATEGORY = 'SET_INFO_CATEGORY'
 
 const initialState = {
     sneakers: [],
-    infoCategory: [] || null,
+    infoCategory: [],
     category: 0,
     isLoading: false
 }
