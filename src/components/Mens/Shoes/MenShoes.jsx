@@ -9,7 +9,7 @@ import '../../../scss/active.scss'
 import MenShoesThings from './MenShoesThings'
 import MyLoader from '../../ShoesLoader'
 
-const MenShoes = () => {
+const MenShoes = React.memo(() => {
     const { sneakers, category, isLoading, infoCategory } = useSelector(({ sneak }) => sneak)
 
     const dispatch = useDispatch()
@@ -32,10 +32,10 @@ const MenShoes = () => {
                 </Link>
                 {
                     infoCategory && infoCategory.map((info) => {
-                        return <>
+                        return <nav key={info.header}>
                             <h3 className={sn.sneaker_cont_log}>{info.header}</h3>
                             <p className={sn.sneaker_cont_title}>{info.text}</p>
-                        </>
+                        </nav>
                     })
                 }
 
@@ -48,24 +48,24 @@ const MenShoes = () => {
                             {mencat.shoes}
                         </nav>
                     })}
-                    
+
                 </div>
                 <>
                     {isLoading ? <MenShoesThings sneakers={sneakers} /> : <MyLoader />}
                 </>
                 {
                     infoCategory.map((footer) => {
-                        return <>
+                        return <nav key={footer.footer_header}>
                             <h3 className={sn.sneaker_cont_log}>{footer.footer_header}</h3>
                             <p>{footer.footer_text}</p>
                             <h3 className={sn.sneaker_cont_log}>{footer.footer_header_title}</h3>
                             <p>{footer.footer_text_title}</p>
-                        </>
+                        </nav>
                     })
                 }
             </div>
         </div>
     )
-}
+})
 
 export default MenShoes

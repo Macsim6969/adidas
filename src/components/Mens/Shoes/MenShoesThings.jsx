@@ -1,17 +1,14 @@
-import React, { useState } from 'react'
+import React from 'react'
 import sn from '../../../scss/sneakers.module.scss'
-import MenHoverImage from './MenHoverImage'
+import MenShoesSneak from './MenShoesSneak'
 
 const MenShoesThings = ({ sneakers }) => {
-    const [colorChange, setColorChange] =useState(false)
+    console.log(sneakers, 'sneakers')
+    
     return (
-        <div onMouseMove={()=> {setColorChange(true)}} onMouseLeave={() => {setColorChange(false)}} className={sn.sneaker_cont_sneak}>
+        <div className={sn.sneaker_cont_sneak}>
             {sneakers && sneakers.map((sne) => {
-                return <div className={sn.sneaker_cont_sneak_shoes} key={sne.id}>
-                    <MenHoverImage colorChange={colorChange} setColorChange={setColorChange} image={sne.imageURL} imageHover={sne.imageURL_hover} />
-                    <nav>{sne.imageURL.length}</nav>
-                    <nav>{sne.name}</nav>
-                </div>
+                return <MenShoesSneak imageURL_hover={sne.imageURL_hover} name={sne.name} imageURL={sne.imageURL} id={sne.id} key={sne.id}/>
             })}
         </div>
     )

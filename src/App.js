@@ -9,6 +9,7 @@ import Header from './components/Header';
 import LoveUntits from './components/Mens/LoveUnits/LoveUntits';
 import UnitDetail from './components/Mens/LoveUnits/UnitDetail';
 import Mens from './components/Mens/Mens';
+import MenDetails from './components/Mens/Shoes/MenDetails';
 import MenShoes from './components/Mens/Shoes/MenShoes';
 import { setCategory , setSort} from './redux/action/filter-action';
 
@@ -37,6 +38,7 @@ function App() {
           <Route path='/cart*' element={<Cart />} />
           <Route path='/blog-unit' element={<UnitBlog/>} />
           <Route path='/men-sneakers' element={<MenShoes/>} />
+          <Route path='/:id' element={<MenDetails/>} />
           <Route>404</Route>
         </Routes>
       </div>

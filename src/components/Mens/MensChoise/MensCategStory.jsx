@@ -7,8 +7,8 @@ const MensCategStory = () => {
     return (
         <div className={s.story}>
             {
-                mens_story && mens_story.map((st) => {
-                    return <div className={s.story_categ}>
+                mens_story && mens_story.map((st, e) => {
+                    return <div key={e} className={s.story_categ}>
                         <Link className={s.story_categ_story} to={st.link}>
                             <img className={s.story_categ_story_img} src={st.imageULR} alt={st.title} />
                             <p className={s.story_categ_story_title}>{st.title}</p>

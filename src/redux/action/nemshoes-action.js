@@ -1,5 +1,5 @@
 import axios from "axios";
-import {  SET_INFO_CATEGORY, SET_LAODING, SET_MEN_CATEGORY, SET_SNEAKERS } from "../reduc/menshoes-reducer";
+import {  SET_INFO_CATEGORY, SET_LAODING, SET_MEN_CATEGORY, SET_SNEAKERS, SET_SNEAK_GALLERY, SET_THINGS, REMOVE_UNIT } from "../reduc/menshoes-reducer";
 
 
 export const fetchShoes = (category) => (dispatch) => {
@@ -10,11 +10,15 @@ export const fetchShoes = (category) => (dispatch) => {
     })
 }
 
-const setSneakers = (sneaker) => ({ 
+export const setSneakers = (sneaker) => ({ 
     type: SET_SNEAKERS,
     payload: sneaker
 })
 
+export const setThings = (things) =>({
+    type: SET_THINGS,
+    payload: things
+})
 
 export const setMenCategory = (categ) => ({
     type: SET_MEN_CATEGORY,
@@ -31,9 +35,16 @@ const setInfoCategory = (info) =>({
     payload: info
 })
 
-
+export const setSneackGallery = (gallery) =>({
+    type: SET_SNEAK_GALLERY,
+    payload: gallery
+})
 export const fetchInfoCategory = (category) => (dispatch) =>{
     axios.get(`https://6293babe7aa3e6af1a102469.mockapi.io/adidas/menshoes/infoCateg?category=${category}`).then(resp =>{
         dispatch(setInfoCategory(resp.data))
     })
 }
+
+export const setThing = () =>({
+    type : REMOVE_UNIT
+})
