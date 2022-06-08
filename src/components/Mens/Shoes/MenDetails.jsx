@@ -8,7 +8,7 @@ import { setSneackGallery, setThing, setThings } from '../../../redux/action/nem
 const MenDetails = () => {
     const dispatch = useDispatch()
     const { id } = useParams()
-    const { sneakers, gallery } = useSelector((state) => state.sneak)
+    const { gallery } = useSelector((state) => state.sneak)
     console.log(gallery)
 
     useEffect(() => {

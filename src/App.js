@@ -4,7 +4,7 @@ import './App.css';
 import { Main, Shoes } from './components';
 import UnitBlog from './components/Blog/UnitBlog';
 import Cart from './components/Cart';
-import Clothe from './components/Clothe';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import LoveUntits from './components/Mens/LoveUnits/LoveUntits';
 import UnitDetail from './components/Mens/LoveUnits/UnitDetail';
@@ -34,7 +34,6 @@ function App() {
           <Route path='/pride*' element={<LoveUntits/>}/>
           <Route path='/pride/:id' element={<UnitDetail />}/>
           <Route path='/shoes*' element={<Shoes category_rg={[{name:'price' ,type:'Price'}, {name:'popular', type:'Popular'}, {name:'newest', type:'Newest'}]} onCLickCategory={onSelectCategory} onClickSortBy={onCSelectSortBy} />} />
-          <Route path='/clothing*' element={<Clothe item={['Price', 'Popular', 'Newest']} onCLickCategory={onSelectCategory} />} />
           <Route path='/cart*' element={<Cart />} />
           <Route path='/blog-unit' element={<UnitBlog/>} />
           <Route path='/men-sneakers' element={<MenShoes/>} />
@@ -42,7 +41,7 @@ function App() {
           <Route>404</Route>
         </Routes>
       </div>
-
+      <Footer/>
     </div>
   );
 }
