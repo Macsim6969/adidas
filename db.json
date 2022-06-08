@@ -1,36 +1,4 @@
 {
-    "infoCateg": [
-        {
-            "id": 0,
-            "category": 0,
-            "header": "MEN'S SHOES",
-            "text": "Shop adidas for all styles of men's shoes including casual sneakers, high-performance running shoes, and comfy slides. Browse styles for women and kids here.",
-            "footer_header": "ADIDAS MEN’S SHOES",
-            "footer_text": "Step up your game in adidas men’s shoes that help you strut your stuff on and off the court. No matter what you’re doing, comfort is key to enjoying yourself and performing your best. Plush cushioning for every step keeps you moving whether you’re on a fast break or racing to a meeting. adidas men’s sneakers have soft and responsive Boost cushioning, returning energy to your stride. The more you give and the harder you go, the more you get back. Stay fast and agile on your feet with lightweight materials. When you need to change direction quickly to lose a defender, shoe uppers support your feet as you push off. Set new PRs from your morning runs to major marathons, weight training to gym sessions. adidas sports shoes for men help you perform your best and are designed to meet the demands of each unique sport. On the basketball court, soccer fields, race tracks and beyond, lace up shoes like the Dame 7, Copa Sense, Freak Ghost and more to raise your level. After your game, slip into relaxed men’s slides to get your recovery started. Off the field, adidas has men’s sneakers for your everyday life. Whether you prefer the modern athletic vibes of the NMD or Ultraboost or timeless looks like the Stan Smith and Superstar, start from the ground up to express your creative style. Unlimited colors, graphics, and styles offer everything you need to make your mark. Browse adidas for men’s trainers, sneakers and more to step through your day in confidence and style.",
-            "footer_header_title": "HOW TO LACE YOUR SHOES",
-            "footer_text_title": "Learn more about how to lace your shoes properly and all the different techniques that can help you get the most comfort and functionality out of your shoes. Find our How To Lace Your Shoes library here."
-        },
-        {
-            "id": 1,
-            "category": 1,
-            "header": "MEN'S SNEAKERS",
-            "text": "From Ultraboost to Superstar, you can find the perfect men’s athletic shoes to fit your lifestyle. They’re made with your comfort in mind so you can put all of your focus into your next session.",
-            "footer_header": "ADIDAS MEN’S ATHLETIC SHOES",
-            "footer_text": "Your days and your workouts take things to the next level and adidas men’s athletic sneakers are ready to step up. With signature style and modern technologies that improve comfort and support in a variety of conditions, you’re set to perform your best. From cushioned running footwear to casual leather shoes that ramp up your look, you can find an ideal fit for whatever your day brings. Soft cushioning eases every step from morning to night. Shoes with adidas Boost cushioning feel responsive and return energy to your stride. The harder you go, the more you get back from your training session to an afternoon packed with meetings. Lightweight and breathable knit uppers are flexible and supportive whether you’re crushing a HIIT workout or going out for coffee. Smooth leather always makes a statement in styles like the timeless Stan Smith or iconic Samba. Lace up men’s athletic shoes like the Ozweego, ZX 2K and NMD for sleek, modern style. Tick off miles and your to-do list in the adidas Ultraboost. Countless designs and colors let you show off your creative style as soon as you step out your door. Shop adidas for men’s athletic shoes that deliver comfortable support through any activity."
-        },
-        {
-            "id": 2,
-            "category": 2,
-            "header": "MEN'S RUNNING SHOES",
-            "text": ""
-        },
-        {
-            "id": 3,
-            "category": 3,
-            "header": "MEN'S SOCCER CLEATS & SHOES",
-            "text": ""
-        }
-    ],
     "shoes": [
         {
             "id": 0,
@@ -530,7 +498,7 @@
             "imageURL": [
                 "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3400846bcfc04954b089addb012580d6_9366/Terrex_Agravic_Flow_2_Trail_Running_Shoes_Green_H06575_01_standard.jpg"
             ],
-            "price" : 140
+            "price": 140
         },
         {
             "id": 37,
@@ -538,7 +506,7 @@
             "imageURL": [
                 "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a921fa42931c4fc09a9fad7c006e8c1f_9366/Terrex_Agravic_Ultra_Trail_Running_Shoes_Green_H03180_01_standard.jpg"
             ],
-            "price" : 160
+            "price": 160
         },
         {
             "id": 38,
@@ -546,7 +514,7 @@
             "imageURL": [
                 "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/37274baf56da463ebb48addb01217a7e_9366/Terrex_Agravic_Flow_2_Trail_Running_Shoes_Black_GZ8888_01_standard.jpg"
             ],
-            "price" : 117
+            "price": 117
         },
         {
             "id": 39,
@@ -554,7 +522,7 @@
             "imageURL": [
                 "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0502541604b0404b8619ad81010ca2ae_9366/Terrex_Swift_Solo_Approach_Shoes_Beige_GZ0333_01_standard.jpg"
             ],
-            "price" : 100
+            "price": 100
         },
         {
             "id": 40,
@@ -562,7 +530,7 @@
             "imageURL": [
                 "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/619002ad256c4bfaa6b9ac8600f4f479_9366/Five_Ten_NIAD_Moccasym_Climbing_Shoes_Red_FW2853_01_standard.jpg"
             ],
-            "price" : 125
+            "price": 125
         },
         {
             "id": 41,
@@ -570,7 +538,7 @@
             "imageURL": [
                 "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0dfc7cc2061b46e4b1a2ad83010e10c4_9366/Terrex_Skychaser_2.0_Hiking_Shoes_Grey_GZ0324_01_standard.jpg"
             ],
-            "price" : 130
+            "price": 130
         },
         {
             "id": 42,
@@ -578,7 +546,7 @@
             "imageURL": [
                 "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/757d62aebc704ced8cc2acaa0115efcb_9366/Terrex_Voyager_21_Travel_Shoes_Black_FZ2225_01_standard.jpg"
             ],
-            "price" : 90
+            "price": 90
         },
         {
             "id": 43,
@@ -685,435 +653,12 @@
             "price": 65
         },
         {
-            "id" : 56,
+            "id": 56,
             "category": 7,
             "imageURL": [
                 "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4ce99bbe2a83462f9becadf80180ba8d_9366/Donovan_Mitchell_D.O.N._Issue_3_Shoes_-_Stars_of_Utah_Black_GZ5526_01_standard.jpg"
             ],
             "price": 110
-        }
-    ],
-    "love": [
-        {
-            "id": 1,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/6744427b6f794625bb01ae42016837d1_9366/love-unites-trefoil-tee-gender-neutral.jpg",
-                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3bda0666abd74c91b22eae3200082f25_9366/Love_Unites_Trefoil_Tee_(Gender_Neutral)_Purple_HC3077_21_model.jpg"
-            ],
-            "title": "Love Unites Doodle Print Tee (Gender Neutral)",
-            "category": "Originals",
-            "price": 40,
-            "data": "new",
-            "head": "Show your Pride in this comfortable and colorful t-shirt.",
-            "text": "The 2022 adidas X Kris Andrew Small Pride Collection was inspired by the Stonewall Activists of the Stonewall Uprising in 1969. Together adidas and Kris Andrew Small offer a collection in solidarity & celebration of the LGBTQIA+ community's past & present, honouring unique belonging – creating a  colourful & diverse graphic message among this inclusive & optimistic collection. This partnership is also adjacent to adidas' two key Global Purpose Partners, Athlete Ally & Stonewall UK. Stand proud and celebrate the unifying power of love in this adidas t-shirt made to honour LGBTQ+ communities. Artwork from Kris Andrew Small practically vibrates with kinetic energy, drawing the spotlight to a Trefoil logo on the front — a symbol of authenticity and originality. This t-shirt was made using UNITEFIT — an all-gender fit system that was created with a spectrum of sizes, genders and forms in mind. Our cotton products support more sustainable cotton farming.",
-            "washing": "Washing instructions",
-            "instruction": [
-                {
-                    "img": "https://www.adidas.com/glass/react/98d6566/assets/img/washing-instructions/B1.svg",
-                    "step": "Do not bleach"
-                },
-                {
-                    "img": "https://www.adidas.com/glass/react/98d6566/assets/img/washing-instructions/C2.svg",
-                    "step": "Tumble dry low heat"
-                },
-                {
-                    "img": "https://www.adidas.com/glass/react/98d6566/assets/img/washing-instructions/E1.svg",
-                    "step": "Do not dry clean"
-                },
-                {
-                    "img": "https://www.adidas.com/glass/react/98d6566/assets/img/washing-instructions/D2.svg",
-                    "step": "Touch up with cool iron"
-                },
-                {
-                    "img": "https://www.adidas.com/glass/react/98d6566/assets/img/washing-instructions/A3.svg",
-                    "step": "Machine wash cold"
-                }
-            ],
-            "information": "Extra care information",
-            "info_dop": [
-                {
-                    "dop": "Do not use fabric softener"
-                },
-                {
-                    "dop": "Use mild detergent only"
-                },
-                {
-                    "dop": "Wash and dry inside out"
-                },
-                {
-                    "dop": "Wash with like colors"
-                },
-                {
-                    "dop": "Do not iron print"
-                }
-            ],
-            "specification": "Specifications",
-            "specific": [
-                {
-                    "spec": "Ribbed crewneck"
-                },
-                {
-                    "spec": "100% cotton single jersey"
-                },
-                {
-                    "spec": "Supports the Better Cotton Initiative"
-                },
-                {
-                    "spec": "Imported"
-                },
-                {
-                    "spec": "Product color: White / Multicolor"
-                },
-                {
-                    "spec": "Product code: HC3076"
-                }
-            ],
-            "story": [
-                {
-                    "image": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/ss22-pride-launch-pdp-statement-v2-d_tcm221-879237.jpg",
-                    "width": "305px"
-                },
-                {
-                    "image": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/ss22-pride-launch-pdp-statementcitation-d_tcm221-876853.jpg",
-                    "width": "572px"
-                }
-            ],
-            "story_txt": "When I was younger, I was so scared to be queer. What gave me strength was when I started actually showing that side of me and putting it in my work. It made me feel liberated and free.",
-            "author": "- Kris Andrew Small"
-        },
-        {
-            "id": 2,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/17d61d8f5bc141f1a54fae470156d66f_9366/love-unites-doodle-print-tee-gender-neutral.jpg"
-            ],
-            "title": "Love Unites Trefoil Tee (Gender Neutral)",
-            "category": "Originals",
-            "price": 45,
-            "data": "new"
-        },
-        {
-            "id": 3,
-            "imageURL": [
-                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c4eef76ad3664fb19a7dae1e00326612_9366/Superstar_Pride_Shoes_White_GX6395_01_standard.jpg"
-            ],
-            "title": "Superstar Pride Shoes",
-            "category": "Originals",
-            "price": 100,
-            "data": "new"
-        },
-        {
-            "id": 4,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/10f1205e765e40eeb0d3ae05016130fe_9366/love-unites-trefoil-tee.jpg",
-                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2f6dba4d2a3046cabb22adff003dea34_9366/Love_Unites_Trefoil_Tee_Purple_HG3899_01_laydown.jpg"
-            ],
-            "title": "Love Unites Trefoil Tee",
-            "category": "Youth Originals",
-            "price": 25,
-            "data": "new"
-        },
-        {
-            "id": 5,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/03d87f38d1bb4538a02eadbf014981a4_9366/ultraboost-22-shoes.jpg",
-                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/49e5514bb83e4c5d8bf5ad9100ef2815_9366/Ultraboost_22_Shoes_White_GX5459_01_standard.jpg",
-                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c2e0af3250d349abb9c6ad7a0088d90c_9366/Ultraboost_22_Shoes_Red_GX5462_01_standard.jpg",
-                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6d40a18625c14c8493acae1400829563_9366/Ultraboost_22_Shoes_White_GX5466_01_standard.jpg"
-            ],
-            "title": "Ultraboost 22 Shoes",
-            "category": "Running",
-            "price": 190,
-            "data": "new"
-        },
-        {
-            "id": 6,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/9b94b2a2cd854e5e90c3adf20047db54_9366/pride-simple-tote.jpg"
-            ],
-            "title": "Pride Simple Tote",
-            "category": "Originals",
-            "price": 30,
-            "data": "new"
-        },
-        {
-            "id": 7,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/e3b4e4ee47254443b02bae280112637d_9366/stan-smith-pride-shoes.jpg"
-            ],
-            "title": "Stan Smith Pride Shoes",
-            "category": "Originals",
-            "price": 120,
-            "data": "new"
-        },
-        {
-            "id": 8,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/e249d893034940f9a987ae0c0133d811_9366/love-unites-print-track-pants-gender-neutral.jpg"
-            ],
-            "title": "Love Unites Print Track Pants (Gender Neutral)",
-            "category": "Originals",
-            "price": 70,
-            "data": "new"
-        },
-        {
-            "id": 9,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/0ef5c965c610469ba0a8ae0b000b219a_9366/love-unites-sst-track-jacket-gender-neutral.jpg"
-            ],
-            "title": "Love Unites SST Track Jacket (Gender Neutral)",
-            "category": "Originals",
-            "price": 190,
-            "data": "new"
-        },
-        {
-            "id": 10,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/0a2153871d7b43f48ddaae0800aee34a_9366/forum-triple-platform-pride-low-shoes.jpg"
-            ],
-            "title": "Forum Triple Platform Pride Low Shoes",
-            "category": "Originals",
-            "price": 130,
-            "data": "new"
-        },
-        {
-            "id": 11,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/62bbb18ea7cf41baaa1cad8601729c85_9366/gamemode-knit-indoor-soccer-shoes.jpg"
-            ],
-            "title": "Gamemode Knit Indoor Soccer Shoes",
-            "category": "Soccer",
-            "price": 100,
-            "data": "new"
-        },
-        {
-            "id": 12,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/2f8f9b43cc7e4df98907adff00244ee6_9366/love-unites-print-track-jacket.jpg"
-            ],
-            "title": "Love Unites Print Track Jacket",
-            "category": "Youth Originals",
-            "price": 55,
-            "data": "new"
-        },
-        {
-            "id": 13,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/452f637d23f04b7b887cadca0078f9c9_9366/love-unites-loose-shorts.jpg"
-            ],
-            "title": "Love Unites Loose Shorts",
-            "category": "Women's Originals",
-            "price": 40,
-            "data": "new"
-        },
-        {
-            "id": 14,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/9ae14746f51b4666987eadff0004b93e_9366/love-unites-print-track-pants.jpg"
-            ],
-            "title": "Love Unites Print Track Pants",
-            "category": "Youth Originals",
-            "price": 45,
-            "data": "new"
-        },
-        {
-            "id": 15,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/18ff50f848ab4e18bdaeadb0007667d9_9366/pride-super-no-show-socks-3-pairs.jpg"
-            ],
-            "title": "Love Unites Loose Shorts",
-            "category": "Women's Originals",
-            "price": 15,
-            "data": "new"
-        },
-        {
-            "id": 16,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/bb2d5417718449f98ca1ade3001d4d1e_9366/love-unites-doodle-tee-dress-plus-size.jpg"
-            ],
-            "title": "Love Unites Doodle Tee Dress (Plus Size)",
-            "category": "Women's Originals",
-            "price": 50,
-            "data": "new"
-        },
-        {
-            "id": 17,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/452f637d23f04b7b887cadca0078f9c9_9366/love-unites-loose-shorts.jpg"
-            ],
-            "title": "Love Unites Loose Shorts",
-            "category": "Women's Originals",
-            "price": 40,
-            "data": "new"
-        },
-        {
-            "id": 18,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/0aad85a3e21c4903ad5dadb0008bb54f_9366/love-unites-crop-hoodie.jpg"
-            ],
-            "title": "Love Unites Crop Hoodie",
-            "category": "Originals",
-            "price": 70,
-            "data": "new"
-        },
-        {
-            "id": 19,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/2eccda9b7648493b888bade3001e7ba4_9366/love-unites-crop-hoodie-plus-size.jpg"
-            ],
-            "title": "Love Unites Crop Hoodie (Plus Size)",
-            "category": "Women's Originals",
-            "price": 70,
-            "data": "new"
-        },
-        {
-            "id": 20,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/515c0d61009b48b597a4ae060095448b_9366/campus-80s-pride-shoes.jpg"
-            ],
-            "title": "Campus 80s Pride Shoes",
-            "category": "Originals",
-            "price": 100,
-            "data": "new"
-        },
-        {
-            "id": 21,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/79a322bb5e8c4195b311ae8300c1890c_9366/kris-andrew-small-techfit-tights.jpg"
-            ],
-            "title": "Kris Andrew Small TECHFIT Tights",
-            "category": "Training",
-            "price": 50,
-            "data": "new"
-        },
-        {
-            "id": 22,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/25c9e1b2068d4ab192a6ad44002e4274_9366/pride-relaxed-hat.jpg"
-            ],
-            "title": "Pride Relaxed Hat",
-            "category": "Originals",
-            "price": 26,
-            "data": "new"
-        },
-        {
-            "id": 23,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/c15d01316a5c4dfc82b9adb00071c957_9366/pride-crew-socks-3-pairs.jpg"
-            ],
-            "title": "Pride Crew Socks 3 Pairs",
-            "category": "Originals",
-            "price": 20,
-            "data": "new"
-        },
-        {
-            "id": 24,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/d5db8910dfcb420683edae27001406d1_9366/pride-reversible-bucket-hat.jpg"
-            ],
-            "title": "Pride Reversible Bucket Hat",
-            "category": "Originals",
-            "price": 35,
-            "data": "new"
-        },
-        {
-            "id": 25,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/6aa6d34817f84e5c91ecae1b00100248_9366/pride-icons-bucket-hat.jpg"
-            ],
-            "title": "Pride Icons Bucket Hat",
-            "category": "Originals",
-            "price": 32,
-            "data": "new"
-        },
-        {
-            "id": 26,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/f76ebe48eeba4b0dac62ae0c01344f67_9366/love-unites-overalls-gender-neutral.jpg"
-            ],
-            "title": "Love Unites Overalls (Gender Neutral)",
-            "category": "Originals",
-            "price": 120,
-            "data": "coming soon"
-        },
-        {
-            "id": 27,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/ece698f5d1c2451aa045adca007b51ef_9366/pride-hoodie-gender-neutral.jpg"
-            ],
-            "title": "Pride Hoodie (Gender Neutral)",
-            "category": "Essentials",
-            "price": 70,
-            "data": "coming soon"
-        },
-        {
-            "id": 28,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/55712716e6c84b63b4e4ae350102acea_9366/tiro-pride-track-jacket.jpg"
-            ],
-            "title": "Tiro Pride Track Jacket",
-            "category": "Sportswear",
-            "price": 65,
-            "data": "coming soon"
-        },
-        {
-            "id": 29,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/b37ae0672b384a41bf19ae3c00c819e7_9366/tiro-pride-track-pants.jpg"
-            ],
-            "title": "Tiro Pride Track Pants",
-            "category": "Sportswear",
-            "price": 60,
-            "data": "coming soon"
-        },
-        {
-            "id": 30,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/3a8758f6d4eb4767a693ae3e011b7929_9366/tiro-pride-track-pants-plus-size.jpg"
-            ],
-            "title": "Tiro Pride Track Pants (Plus Size)",
-            "category": "Women's Sportswear",
-            "price": 60,
-            "data": "coming soon"
-        },
-        {
-            "id": 31,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/2235fe7138004ea897b0ae3c00e8e200_9366/tiro-pride-track-jacket-plus-size.jpg"
-            ],
-            "title": "Tiro Pride Track Jacket (Plus Size)",
-            "category": "Women's Sportswear",
-            "price": 65,
-            "data": "coming soon"
-        },
-        {
-            "id": 32,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/b8d28bfb685b41498c42adde014d8ded_9366/tiro-pride-track-jacket.jpg"
-            ],
-            "title": "Tiro Pride Track Jacket",
-            "category": "Sportswear",
-            "price": 65,
-            "data": "coming soon"
-        },
-        {
-            "id": 33,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/c519c3793f4944bd84dfadc9000ff985_9366/tiro-pride-gender-neutral-jersey.jpg"
-            ],
-            "title": "Tiro Pride Gender-Neutral Jersey",
-            "category": "Sportswear",
-            "price": 50,
-            "data": "coming soon"
-        },
-        {
-            "id": 34,
-            "imageURL": [
-                "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/33e57014bb3a45f8bd47ae24012fdab2_9366/tennis-pride-pack-y-dress.jpg"
-            ],
-            "title": "Tennis Pride Pack Y-Dress",
-            "category": "Women's Tennis",
-            "price": 120,
-            "data": "coming soon"
         }
     ]
 }

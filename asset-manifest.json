@@ -1,11 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.51a0bed8.css",
-    "main.js": "/static/js/main.3812102b.js",
-    "static/media/ShoEs.jpg": "/static/media/ShoEs.60d9c107d738a65d377f.jpg",
-    "static/media/CLother.jpg": "/static/media/CLother.3a22705754d141109080.jpg",
-    "static/media/ShoesC.jpg": "/static/media/ShoesC.cde531090067cd407650.jpg",
-    "static/media/ShoesBg.webp": "/static/media/ShoesBg.ada3d9a8d834f58e7f4a.webp",
+    "main.css": "/static/css/main.3781269c.css",
+    "main.js": "/static/js/main.0f6d1af1.js",
     "static/media/banner-men.webp": "/static/media/banner-men.c7b1e99ecb79611b78e7.webp",
     "static/media/blog_info3.webp": "/static/media/blog_info3.694a974310a206d00649.webp",
     "static/media/block_info.jpg": "/static/media/block_info.461525e8a7a57739a3e7.jpg",
@@ -13,19 +9,22 @@
     "static/media/blog_unit.jpg": "/static/media/blog_unit.a9a8441822e24a49d8bd.jpg",
     "static/media/unit_content.jpg": "/static/media/unit_content.a1d7b3ec244c83e98b09.jpg",
     "static/media/love_unitsBg.webp": "/static/media/love_unitsBg.1b200d5045030ae2ff77.webp",
+    "static/media/main-960.webp": "/static/media/main-960.49b671a2be61ba7d2bae.webp",
     "static/media/love_untsMB.webp": "/static/media/love_untsMB.a28a5f8e3cbf31943d91.webp",
-    "static/media/Logo.png": "/static/media/Logo.aa127ea7d39234e426d9.png",
+    "static/media/main_bt_960.webp": "/static/media/main_bt_960.4267e928f90c58eef2f2.webp",
+    "static/media/main_bt.webp": "/static/media/main_bt.71fc0e2bae7a9777349b.webp",
+    "static/media/main.webp": "/static/media/main.73886371b6bdcd8eb460.webp",
     "static/media/trefoil-hoodie.jpg": "/static/media/trefoil-hoodie.bc90e428ffb22444ec96.jpg",
     "static/media/pants.webp": "/static/media/pants.b3039addd46986a26a03.webp",
     "static/media/sneekers.webp": "/static/media/sneekers.57db819f555bff912f00.webp",
     "static/media/tops.webp": "/static/media/tops.e106d4ae22c286b2b691.webp",
     "index.html": "/index.html",
-    "static/media/Loader.svg": "/static/media/Loader.474adfe315f70d0c9dd833b16b80bac9.svg",
-    "main.51a0bed8.css.map": "/static/css/main.51a0bed8.css.map",
-    "main.3812102b.js.map": "/static/js/main.3812102b.js.map"
+    "static/media/Loader.svg": "/static/media/Loader.75b45cdf6040c020c21cd90225b9e24e.svg",
+    "main.3781269c.css.map": "/static/css/main.3781269c.css.map",
+    "main.0f6d1af1.js.map": "/static/js/main.0f6d1af1.js.map"
   },
   "entrypoints": [
-    "static/css/main.51a0bed8.css",
-    "static/js/main.3812102b.js"
+    "static/css/main.3781269c.css",
+    "static/js/main.0f6d1af1.js"
   ]
 }
