@@ -1,5 +1,5 @@
 import axios from "axios";
-import {  SET_INFO_CATEGORY, SET_LAODING, SET_MEN_CATEGORY, SET_SNEAKERS, SET_SNEAK_GALLERY, SET_THINGS, REMOVE_UNIT } from "../reduc/menshoes-reducer";
+import {  SET_INFO_CATEGORY, SET_LAODING, SET_MEN_CATEGORY, SET_SNEAKERS, SET_SNEAK_GALLERY, SET_THINGS, REMOVE_UNIT, SET_FILTER_IMAGE } from "../reduc/menshoes-reducer";
 
 
 export const fetchShoes = (category) => (dispatch) => {
@@ -9,7 +9,7 @@ export const fetchShoes = (category) => (dispatch) => {
         dispatch(setLoading(true))
     })
 }
-
+ 
 export const setSneakers = (sneaker) => ({ 
     type: SET_SNEAKERS,
     payload: sneaker

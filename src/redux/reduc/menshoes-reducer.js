@@ -10,7 +10,7 @@ export const REMOVE_UNIT = 'SET_UNIT'
 const initialState = {
     sneakers: [],
     things: [],
-    gallery: [],
+    galleryChoice: [],
     infoCategory: [],
     category: 0,
     isLoading: false,
@@ -31,7 +31,7 @@ export const menShoesReducer = (state = initialState, action) => {
         case SET_SNEAK_GALLERY:
             return {
                 ...state,
-                gallery: action.payload
+                galleryChoice: action.payload
             }
         case SET_MEN_CATEGORY:
             return {
@@ -51,7 +51,7 @@ export const menShoesReducer = (state = initialState, action) => {
         case REMOVE_UNIT:
             return{
                 ...state,
-                gallery: null
+                galleryChoice: null
             }
         default:
             return state
