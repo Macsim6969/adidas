@@ -1,0 +1,28 @@
+.details{
+    flex-direction: row;
+    &_images{
+        display: flex;
+        flex-direction: column;
+        &_left{
+            width: 75%;
+            background-color: #eceff1;
+            &_main{
+                margin: 0 auto;
+                width: 600px;
+                height: 600px;
+                img{
+                    max-width: 100%;
+                }
+            }
+            &_dop{
+                
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                img{
+                    max-width: 65px;
+                }
+            }
+        }
+    }
+}
