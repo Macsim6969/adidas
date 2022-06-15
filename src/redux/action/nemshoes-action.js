@@ -1,5 +1,5 @@
 import axios from "axios";
-import {  SET_INFO_CATEGORY, SET_LAODING, SET_MEN_CATEGORY, SET_SNEAKERS, SET_SNEAK_GALLERY, SET_THINGS, REMOVE_UNIT, SET_FILTER_IMAGE } from "../reduc/menshoes-reducer";
+import {  SET_INFO_CATEGORY, SET_LAODING, SET_MEN_CATEGORY, SET_SNEAKERS, SET_SNEAK_GALLERY, SET_THINGS, REMOVE_UNIT, SET_SNEAK_GALLERY_THING } from "../reduc/menshoes-reducer";
 
 
 export const fetchShoes = (category) => (dispatch) => {
@@ -47,4 +47,9 @@ export const fetchInfoCategory = (category) => (dispatch) =>{
 
 export const setThing = () =>({
     type : REMOVE_UNIT
+})
+
+export const setGalleryDop = (galleryDop) =>({
+    type: SET_SNEAK_GALLERY_THING,
+    payload: galleryDop
 })
