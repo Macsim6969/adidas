@@ -48,3 +48,8 @@ export const fetchInfoCategory = (category) => (dispatch) =>{
 export const setThing = () =>({
     type : REMOVE_UNIT
 })
+
+export const setGalleryDop = (galleryDop) =>({
+    type: SET_SNEAK_GALLERY_THING,
+    payload: galleryDop
+})

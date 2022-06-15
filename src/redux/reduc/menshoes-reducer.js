@@ -3,6 +3,7 @@ export const SET_MEN_CATEGORY = 'SET_MEN_CATEGORY'
 export const SET_LAODING = 'SET_LAODING'
 export const SET_INFO_CATEGORY = 'SET_INFO_CATEGORY'
 export const SET_SNEAK_GALLERY = 'SET_SNEAK_GALLERY'
+export const SET_SNEAK_GALLERY_THING = 'SET_SNEAK_GALLERY_THING'
 export const SET_THINGS = 'SET_THINGS'
 export const REMOVE_UNIT = 'SET_UNIT'
 
@@ -11,6 +12,7 @@ const initialState = {
     sneakers: [],
     things: [],
     galleryChoice: [],
+    galleryDop: [],
     infoCategory: [],
     category: 0,
     isLoading: false,
@@ -32,6 +34,11 @@ export const menShoesReducer = (state = initialState, action) => {
             return {
                 ...state,
                 galleryChoice: action.payload
+            }
+        case SET_SNEAK_GALLERY_THING :
+            return{
+                ...state,
+                galleryDop: action.payload
             }
         case SET_MEN_CATEGORY:
             return {

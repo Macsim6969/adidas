@@ -4,7 +4,7 @@ import React, { useEffect } from 'react'
 import { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Link, useParams } from 'react-router-dom'
-import { setSneackGallery, setThing, setThings } from '../../../redux/action/nemshoes-action'
+import { setGalleryDop, setSneackGallery, setThing, setThings } from '../../../redux/action/nemshoes-action'
 
 
 const MenDetails = () => {
@@ -17,6 +17,8 @@ const MenDetails = () => {
             dispatch(setThings(resp.data[0]))
             dispatch(setSneackGallery(resp.data[0].imageURL))
             setImage(resp.data[0].imageURL[0])
+            dispatch(setGalleryDop(resp.data[0].galleryChoiceThing))
+            console.log(resp.data)
         })
         dispatch(setThing())
     }, [id])
