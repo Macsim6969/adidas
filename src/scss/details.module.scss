@@ -1,5 +1,7 @@
 .details{
     flex-direction: row;
+    position: sticky;
+    top: 0;
     &_images{
         display: flex;
         flex-direction: column;
@@ -15,12 +17,26 @@
                 }
             }
             &_dop{
-                
+                position: sticky;
+                top: 60px;
                 display: flex;
                 justify-content: center;
                 flex-direction: row;
                 img{
                     max-width: 65px;
+                }
+            }
+            &_under{
+                max-width: 960px;
+                margin:  0 auto;
+                &_higlights{
+                    p{
+                        border: 1px solid black;
+                        font-size: 19px;
+                        padding: 10px 5px;
+                        display: flex;
+                        justify-content: flex-start;
+                    }
                 }
             }
         }

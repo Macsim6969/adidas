@@ -35,8 +35,8 @@ export const menShoesReducer = (state = initialState, action) => {
                 ...state,
                 galleryChoice: action.payload
             }
-        case SET_SNEAK_GALLERY_THING :
-            return{
+        case SET_SNEAK_GALLERY_THING:
+            return {
                 ...state,
                 galleryDop: action.payload
             }
@@ -56,7 +56,7 @@ export const menShoesReducer = (state = initialState, action) => {
                 infoCategory: action.payload
             }
         case REMOVE_UNIT:
-            return{
+            return {
                 ...state,
                 galleryChoice: null
             }
