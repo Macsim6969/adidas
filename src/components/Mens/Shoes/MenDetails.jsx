@@ -15,10 +15,11 @@ const MenDetails = () => {
 
     const [image, setImage] = useState([])
     const [dopImage, setDopImage] = useState([])
+    console.log(id)
     useEffect(() => {
-        axios.get(`https://6293babe7aa3e6af1a102469.mockapi.io/adidas/menshoes/menshoes?id=${id}`).then(resp => {
+        axios.get(`http://localhost:3001/shoes/?id=${id}`).then(resp => {
             dispatch(setThings(resp.data[0]))
-            console.log(resp.data[0].imageURL[0], 'image')
+            console.log(resp.data)
             dispatch(setSneackGallery(resp.data[0].imageURL))
             setImage(resp.data[0].imageURL[0])
             dispatch(setGalleryDop(resp.data[0].galleryChoiceThing))
