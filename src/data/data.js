@@ -33,6 +33,24 @@ export const sizes = [
     {size: '2XL'},
 ]
 
+export const size = [
+    {size: 5},
+     {size: 5.5},
+    {size: 6},
+    {size: 6.5},
+    {size: 7},
+    {size: 7.5},
+    {size: 8},
+    {size: 8.5},
+    {size: 9},
+    {size: 9.5},
+    {size: 10},
+    {size: 10.5},
+    {size: 11},
+    {size: 11.5},
+    {size: 12}
+]
+
 export const mens_story = [
     {imageULR: 'https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/ss22-pride-launch-hp-glp-teasercarousel-v1_tcm221-886390.jpg' , title: 'LOVE UNITES' , text: 'Inclusive & optimistic. Proud & diverse. The Pride collab with Kris Andrew Small is here.', linkTo: 'SHOP NOW', link: 'men-pride'},
     {imageULR: 'https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/training-ss22-pushup-mh-teaser-blog_tcm221-856327.jpg' , title: 'PUSH-UP WORKOUTS' , text: 'Learn proper push-up form and try 10 different push-up variations to build full-body strength.', linkTo: 'Learn More', link: 'forum-push'},

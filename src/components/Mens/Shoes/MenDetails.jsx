@@ -6,20 +6,20 @@ import { useDispatch, useSelector } from 'react-redux'
 import { Link, useParams } from 'react-router-dom'
 import { setGalleryDop, setSneackGallery, setThing, setThings } from '../../../redux/action/nemshoes-action'
 import MenDetailsDopInfo from './MenDetailsDopInfo'
+import '../../../scss/active.scss'
+import MenDetailsRight from './DetailsRight/MenDetailsRight'
 
 
 const MenDetails = () => {
     const dispatch = useDispatch()
     const { id } = useParams()
     const { galleryChoice, things } = useSelector((state) => state.sneak)
-
+    const {galleryDop} = things
     const [image, setImage] = useState([])
     const [dopImage, setDopImage] = useState([])
-    console.log(id)
     useEffect(() => {
         axios.get(`http://localhost:3001/shoes/?id=${id}`).then(resp => {
             dispatch(setThings(resp.data[0]))
-            console.log(resp.data)
             dispatch(setSneackGallery(resp.data[0].imageURL))
             setImage(resp.data[0].imageURL[0])
             dispatch(setGalleryDop(resp.data[0].galleryChoiceThing))
@@ -35,9 +35,18 @@ const MenDetails = () => {
     }
 
     const [showDopImage, setShowDopImage] = useState(false)
-    const [showInfo, setShowInfo] = useState(false)
-    const [showInfoDescrp, setShowInfoDescrp] = useState(false)
-    const [showInfoDet, setShowInfoDet] = useState(false)
+
+    const addZoom = () => {
+        if (document.querySelector('img').classList.contains('z')) {
+            document.querySelector('img').classList.remove('z')
+            document.querySelector('img').classList.add('zoom')
+
+        } else {
+            document.querySelector('img').classList.remove('zoom')
+            document.querySelector('img').classList.add('z')
+
+        }
+    }
 
     return (
         <div className={d.details}>
@@ -45,7 +54,7 @@ const MenDetails = () => {
                 <div className={d.details_images_left}>
                     <Link to={'/men-sneakers'} >Back</Link>
                     <div className={d.details_images_left_main}>
-                        <img src={image} alt="" />
+                        <img src={image} alt="" className='z' onClick={() => addZoom()} />
                     </div>
                     <nav className={d.details_images_left_dop}>
                         {
@@ -54,47 +63,27 @@ const MenDetails = () => {
                             })
                         }
                     </nav>
-                    {showDopImage &&
-                        <MenDetailsDopInfo oneClick={oneClick} dopImage={dopImage} />}
-                    {
-                      showDopImage ? <button onClick={() => setShowDopImage(!showDopImage)}>Less</button> : <button onClick={() => setShowDopImage(!showDopImage)}>Show</button> 
-                    }
-                    <div className={d.details_images_left_under}>
-                        <div className={d.details_images_left_under_higlights}>
-                            <p onClick={() => setShowInfo(!showInfo)}>Highlights</p>
-                            {
-                                showInfo && <div>
-                                    <h5>INCREDIBLE ENERGY RETURN</h5>
-                                    <nav>Hundreds of Boost capsules fused together and ready to explode with energy in each step.</nav>
-                                </div>
-
-                            }
-                        </div>
-                        <div className={d.details_images_left_under_higlights}>
-                            <p onClick={() => setShowInfoDescrp(!showInfoDescrp)}>Description</p>
-                            {
-                                showInfoDescrp && <div>
-                                    <h5>SAY HELLO TO INCREDIBLE ENERGY RETURN</h5>
-                                    <nav>The evolution of our legendary torsion system. Fitted to the outsole for a responsive stride.</nav>
-                                </div>
-
-                            }
-                        </div>
-                        <div className={d.details_images_left_under_higlights}>
-                            <p onClick={() => setShowInfoDet(!showInfoDet)}>Details</p>
-                            {
-                                showInfoDet && <div>
-                                    <h5>SAY HELLO TO INCREDIBLE ENERGY RETURN</h5>
-                                    <nav>The evolution of our legendary torsion system. Fitted to the outsole for a responsive stride.</nav>
-                                </div>
-
-                            }
-                        </div>
+                    {/* <nav>
+                        {galleryDop && dopImage.info.slice(0, 2).map((dop) =>{
+                            return  <img src={dop} alt="" />
+                            
+                        })}
+                    </nav> */}
+                    <div className={d.details_images_left_show}>
+                        {showDopImage &&
+                            <MenDetailsDopInfo oneClick={oneClick} dopImage={dopImage} />}
+                        {
+                            showDopImage ? <button onClick={() => setShowDopImage(!showDopImage)}>Less</button> : <button onClick={() => setShowDopImage(!showDopImage)}>Show</button>
+                        }
                     </div>
-                </div>
-                <div>
 
+                    {/* {
+                        things && things.map(er =>{
+                            <nav>{er.descriptions}</nav>
+                        })
+                    } */}
                 </div>
+                <MenDetailsRight image={image} />
             </div>
         </div>
     )

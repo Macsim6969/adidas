@@ -4,27 +4,36 @@
     top: 0;
     &_images{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         &_left{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             width: 75%;
             background-color: #eceff1;
+            Link{
+                z-index: 999999;
+            }
             &_main{
-                margin: 0 auto;
-                width: 600px;
-                height: 600px;
+                max-width: 600px;
+                max-height: 600px;
                 img{
                     max-width: 100%;
                 }
             }
             &_dop{
+                z-index: 9999999;
                 position: sticky;
-                top: 60px;
+                top: 150px;
                 display: flex;
                 justify-content: center;
                 flex-direction: row;
                 img{
                     max-width: 65px;
                 }
+            }
+            &_show{
+                z-index: 999999;
             }
             &_under{
                 max-width: 960px;
@@ -40,5 +49,86 @@
                 }
             }
         }
+        &_right{
+            border-left: 1px solid rgb(197, 197, 197);
+            height: auto;
+            width: 25%;
+            display: flex;
+            &_fix{
+                z-index: 9999999999999999999;
+                position: fixed;
+                padding: 50px 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                &_categ{
+                    font-size: 16px;
+                }
+                &_name{
+                    padding-top: 20px;
+                    font-size: 32px;
+                    font-weight: 500;
+                    font-style: italic;
+                    text-align: left;
+                }
+                &_price{
+                    font-weight: 500;
+                    font-size: 18px;
+                }
+                &_discount{
+                    text-decoration: line-through;
+                    color: red;
+                }
+                &_sizeboks{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    margin-bottom: 35px;
+                    nav{
+                        flex-basis: 9%;
+                        padding: 15px;
+                        font-size: 18px;
+                        border: 1px solid black;
+                    }
+                    nav:hover{
+                        background-color: black;
+                        color: white;
+                    }
+                }
+                &_button{
+                    background-color: black;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 70%;
+                    padding: 20px 40px;
+                    cursor: pointer;
+                    &_btn{
+                        cursor: pointer;
+                        border: 0;
+                        background-color: black;
+                        font-weight: 500;
+                        font-style: italic;
+                        font-size:19px;
+                        color: white;
+                    }
+                }
+                &_button:active{
+                    transition: all .7s ease;
+                    transform: scale(0.7);
+                }
+                &_button:hover{
+                    transition: all 1s ease;
+                    color: gray;
+                    button{
+                        transition: all 1s ease;
+                        color: gray;
+                    }
+                }
+            }
+        }
+        
     }
 }

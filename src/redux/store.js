@@ -5,6 +5,7 @@ import thunk from "redux-thunk";
 import { unitsReducer } from "./reduc/units-reducer";
 import { unitsDetReducer } from "./reduc/unitDet-reducer";
 import { menShoesReducer } from "./reduc/menshoes-reducer";
+import { infoShoes } from "./reduc/infoshoes-reducer";
 
 
 let reducer = combineReducers({
@@ -13,6 +14,7 @@ let reducer = combineReducers({
     unit: unitsReducer,
     unitDetails: unitsDetReducer,
     sneak: menShoesReducer,
+    info: infoShoes
 })
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

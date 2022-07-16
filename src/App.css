@@ -1,3 +1,10 @@
 .App {
   text-align: center;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.App_main{
+  padding-top: 107px;
 }

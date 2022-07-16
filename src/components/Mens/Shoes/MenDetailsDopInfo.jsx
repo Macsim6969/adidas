@@ -3,10 +3,10 @@ import dop from '../../../scss/mendetdop.module.scss'
 const MenDetailsDopInfo = ({ dopImage }) => {
     
     return (
-        <div>
+        <div className={dop.dop_image}>
             <nav>
                 {
-                    dopImage && dopImage.map(d => {
+                    dopImage && dopImage.filter(item => item < 3).map(d => {
                         return <img className={dop.image} key={d} src={d} alt={d} />
                     })
                 }

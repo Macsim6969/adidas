@@ -8,15 +8,15 @@
             "price": 190,
             "discount": null,
             "sizes": [
-                "5",
-                "5.5",
-                "7",
-                "8",
-                "9",
-                "9.5",
-                "10",
-                "10.5",
-                "11"
+                0,
+                1,
+                4,
+                6,
+                8,
+                9,
+                11,
+                12,
+                13
             ],
             "higlights": [
                 {
@@ -60,7 +60,7 @@
                 "Product color: Legacy Indigo / Blue Rush / Turbo",
                 "Product code: GX3061"
             ],
-            "category": 2,
+            "category": 1,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/93bf5517396f486f9251ad7800a3bff4_9366/Ultraboost_22_Shoes_Blue_GX3061_02_standard_hover.jpg",
             "video": [
                 {
@@ -141,15 +141,15 @@
             "price": 220,
             "discount": 154,
             "sizes": [
-                "6",
-                "6.5",
-                "7",
-                "7.5",
-                "8",
-                "9",
-                "10",
-                "10.5",
-                "11"
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                11,
+                12
             ],
             "higlights": [
                 {
@@ -193,7 +193,7 @@
                 "Product color: Cloud White / Core Black / Solar Red",
                 "Product code: GX6364"
             ],
-            "category": 2,
+            "category": 1,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c6fde475e7a6466d944eae3500d316a8_9366/Ultra_4D_Shoes_White_GX6364_02_standard.jpg",
             "video": [
                 {
@@ -274,15 +274,15 @@
             "price": 140,
             "discount": null,
             "sizes": [
-                "6.5",
-                "7",
-                "7.5",
-                "8",
-                "9",
-                "10",
-                "10",
-                "11",
-                "11.5"
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                11,
+                12,
+                13
             ],
             "higlights": [
                 {
@@ -325,7 +325,7 @@
                 "Product color: Cloud White / Cloud White / Core Black",
                 "Product code: GX7769"
             ],
-            "category": 2,
+            "category": 1,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7f771b21e4884c2a945bad86014754fd_9366/X9000L4_HEAT.RDY_Shoes_White_GX7769_02_standard_hover.jpg",
             "video": [
                 {
@@ -359,14 +359,14 @@
             "price": 75,
             "discount": null,
             "sizes": [
-                "7",
-                "7.5",
-                "8",
-                "9.5",
-                "10",
-                "10.5",
-                "11",
-                "11.5"
+                4,
+                5,
+                6,
+                9,
+                10,
+                11,
+                12,
+                13
             ],
             "higlights": [
                 null
@@ -388,7 +388,7 @@
                 "Product color: Cloud White / Cloud White / Grey Two",
                 "Product code: GX4208"
             ],
-            "category": 2,
+            "category": 1,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7f771b21e4884c2a945bad86014754fd_9366/X9000L4_HEAT.RDY_Shoes_White_GX7769_02_standard_hover.jpg",
             "video": [
                 {
@@ -445,14 +445,14 @@
             "price": 70,
             "discount": null,
             "sizes": [
-                "7",
-                "7.5",
-                "8",
-                "9",
-                "9.5",
-                "10",
-                "10.5",
-                "11"
+                4,
+                5,
+                6,
+                8,
+                9,
+                10,
+                11,
+                12
             ],
             "higlights": [
                 null
@@ -475,7 +475,7 @@
                 "Product color: Cloud White / Core Black / Dash Grey",
                 "Product code: GW8348"
             ],
-            "category": 2,
+            "category": 1,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/eb69f49f6d8c42059f36ad6700b434d8_9366/Duramo_10_Shoes_White_GW8348_02_standard_hover.jpg",
             "video": [
                 {
@@ -560,16 +560,16 @@
             "price": 130,
             "discount": null,
             "sizes": [
-                "7",
-                "7.5",
-                "8",
-                "8.5",
-                "9",
-                "9.5",
-                "10",
-                "10.5",
-                "11",
-                "11.5"
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
             ],
             "higlights": [
                 {
@@ -614,7 +614,7 @@
                 "Product color: Non Dyed / Grey One / Easy Green",
                 "Product code: GY1716"
             ],
-            "category": 2,
+            "category": 1,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/350ae6a7eb5d4bea91bfae2f00260802_9366/Adizero_x_Parley_Shoes_White_GY1716_02_standard_hover.jpg",
             "video": [
                 {
@@ -668,12 +668,12 @@
             "price": 100,
             "discount": 70,
             "sizes": [
-                "8",
-                "9",
-                "9.5",
-                "10",
-                "10.5",
-                "11"
+                6,
+                8,
+                9,
+                10,
+                11,
+                12
             ],
             "higlights": [
                 {
@@ -714,7 +714,7 @@
                 "Product color: Core Black / Chalk White / Grey Two",
                 "Product code: FZ2225"
             ],
-            "category": 2,
+            "category": 1,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/68a41cc64c204015abd4acaa0115fe82_9366/Terrex_Voyager_21_Travel_Shoes_Black_FZ2225_02_standard_hover.jpg",
             "video": [
                 {
@@ -769,12 +769,12 @@
             "price": 275,
             "discount": null,
             "sizes": [
-                "8.5",
-                "9.5",
-                "10",
-                "10.5",
-                "11",
-                "11.5"
+                7,
+                9,
+                10,
+                11,
+                12,
+                13
             ],
             "higlights": [
                 {
@@ -815,7 +815,7 @@
                 "Product color: Off White / Vivid Red / Gold Metallic",
                 "Product code: GV7384"
             ],
-            "category": 4,
+            "category": 3,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ddda6d5b2c79476b9e86ae15007887b8_9366/Predator_Edge+_Firm_Ground_Cleats_White_GV7384_02_standard_hover.jpg",
             "video": [
                 {
@@ -854,15 +854,15 @@
             "price": 100,
             "discount": null,
             "sizes": [
-                "7",
-                "7.5",
-                "8",
-                "8.5",
-                "9.5",
-                "10",
-                "10.5",
-                "11",
-                "11.5"
+                4,
+                5,
+                6,
+                7,
+                9,
+                10,
+                11,
+                12,
+                13
             ],
             "higlights": [
                 {
@@ -890,7 +890,7 @@
                 "Product color: Core Black / Cloud White / Clear Sky",
                 "Product code: GW8523"
             ],
-            "category": 4,
+            "category": 3,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7902e87c835b42688e70ad8601374f86_9366/Gamemode_Knit_Firm_Ground_Soccer_Cleats_Black_GW8523_02_standard_hover.jpg",
             "video": [
                 {
@@ -961,14 +961,14 @@
             "price": 100,
             "discount": null,
             "sizes": [
-                "7",
-                "7.5",
-                "8",
-                "8.5",
-                "9.5",
-                "10",
-                "10.5",
-                "11.5"
+                4,
+                5,
+                6,
+                7,
+                9,
+                10,
+                11,
+                13
             ],
             "higlights": [
                 {
@@ -1009,7 +1009,7 @@
                 "Product color: Impact Yellow / Beam Yellow / Green Oxide",
                 "Product code: HR1739"
             ],
-            "category": 4,
+            "category": 3,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f98b3c4ce2c64ad3985fae9b012792a0_9366/Gamemode_Knit_Firm_Ground_Cleats_Yellow_HR1739_02_standard.jpg",
             "video": [
                 {
@@ -1049,13 +1049,13 @@
             "price": 130,
             "discount": 104,
             "sizes": [
-                "8.5",
-                "9",
-                "9.5",
-                "10",
-                "10.5",
-                "11",
-                "11.5"
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
             ],
             "higlights": [
                 {
@@ -1085,7 +1085,7 @@
                 "Product color: Hi-Res Blue / Turbo / Hi-Res Blue",
                 "Product code: GW2270"
             ],
-            "category": 4,
+            "category": 3,
             "imageURL_hover": "https://assets.adidas.com/images/w_600,f_auto,q_auto/e4a82dbb02964c6281dbae21013f1d11_9366/Predator_Edge.2_Firm_Ground_Cleats_Blue_GW2270.jpg",
             "video": [
                 {
@@ -1138,11 +1138,11 @@
             "price": 250,
             "discount": null,
             "sizes": [
-                "7",
-                "7.5",
-                "8.5",
-                "9.5",
-                "11.5"
+                4,
+                5,
+                7,
+                9,
+                13
             ],
             "higlights": [
                 {
@@ -1184,7 +1184,7 @@
                 "Product color: Sky Rush / Team Shock Pink / Cloud White",
                 "Product code: GW7457"
             ],
-            "category": 4,
+            "category": 3,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3d165c9235d7442e9d0fad7b009bd5cc_9366/X_Speedflow.1_Firm_Ground_Cleats_Blue_GW7457_02_standard_hover.jpg",
             "video": [
                 {
@@ -1265,10 +1265,11 @@
             "price": 275,
             "discount": null,
             "sizes": [
-                "8",
-                "8.5",
-                "10.5",
-                "11."
+                6,
+                9,
+                11,
+                12,
+                14
             ],
             "higlights": [
                 {
@@ -1310,7 +1311,7 @@
                 "Product color: Team Navy / Cloud White / Blue Rush",
                 "Product code: GW4939"
             ],
-            "category": 4,
+            "category": 3,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ff6d807409a44ee18e45ad7a0092e929_9366/Copa_Sense+_Firm_Ground_Cleats_Blue_GW4939_02_standard_hover.jpg",
             "video": [
                 {
@@ -1385,8 +1386,9 @@
             "price": 110,
             "discount": 66,
             "sizes": [
-                "10.5",
-                "11.5"
+                11,
+                13,
+                14
                 
             ],
             "higlights": [
@@ -1419,7 +1421,7 @@
                 "Product color: Cloud White / Signal Green / Carbon",
                 "Product code: GZ8736"
             ],
-            "category": 7,
+            "category": 6,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/97711495071544fdace5ad0200f67ce7_9366/Alphatorsion_2.0_Shoes_White_GZ8736_02_standard_hover.jpg",
             "video": [
                 {
@@ -1470,7 +1472,8 @@
             "price": 120,
             "discount": 72,
             "sizes": [
-                "8.5"
+                7,
+                14
             ],
             "higlights": [
                 {
@@ -1497,7 +1500,7 @@
                 "Product color: Grey Three / Grey Five / Cloud White",
                 "Product code: GX5153"
             ],
-            "category": 7,
+            "category": 6,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0f4422979b184f0cac50ad2200193710_9366/FutureNatural_Shoes_Grey_GX5153_02_standard_hover.jpg",
             "video": [
                 {
@@ -1536,9 +1539,9 @@
             "price": 100,
             "discount": 60,
             "sizes": [
-                "9",
-                "10",
-                "10.5"
+                8,
+                10,
+                11
                 
             ],
             "higlights": [
@@ -1571,7 +1574,7 @@
                 "Product color: Cloud White / Signal Green / Carbon",
                 "Product code: GZ8736"
             ],
-            "category": 7,
+            "category": 6,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4ece609e1c3c40129221ad9700f4b524_9366/X9000L2_Shoes_Black_S23647_02_standard.jpg",
             "video": [
                 {
@@ -1626,13 +1629,13 @@
             "price": 130,
             "discount": 78,
             "sizes": [
-                "7",
-                "7.5",
-                "8.5",
-                "10",
-                "10.5",
-                "11",
-                "11.5"
+                4,
+                5,
+                7,
+                10,
+                11,
+                12,
+                13
                 
             ],
             "higlights": [
@@ -1676,7 +1679,7 @@
                 "Product color: Turbo / Cloud White / Acid Red",
                 "Product code: GZ6343"
             ],
-            "category": 7,
+            "category": 6,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5fe3433b3af740478c6cada400eec2db_9366/The_Indoor_Cycling_Shoes_Red_GZ6343_02_standard.jpg",
             "video": [
                 {
@@ -1736,15 +1739,15 @@
             "price": 120,
             "discount": null,
             "sizes": [
-                "7",
-                "7.5",
-                "8",
-                "8.5",
-                "9",
-                "9.5",
-                "10",
-                "10.5",
-                "11"
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
             ],
             "higlights": [
                 {
@@ -1781,7 +1784,7 @@
                 "Product color: Cloud White / Blue Rush / Turbo",
                 "Product code: GW5323"
             ],
-            "category": 7,
+            "category": 6,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/961a641e1fec4dd9bde7adbb00ecec60_9366/The_Velosamba_Vegan_Cycling_Shoes_White_GW5323_02_standard.jpg",
             "video": [
                 {
@@ -1834,14 +1837,14 @@
             "price": 120,
             "discount": null,
             "sizes": [
-                "7",
-                "8",
-                "8.5",
-                "9",
-                "9.5",
-                "10",
-                "10.5",
-                "11"
+                4,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
                 
             ],
             "higlights": [
@@ -1874,7 +1877,7 @@
                 "Product color: Cloud White / Core Black / Grey Two",
                 "Product code: GY8919"
             ],
-            "category": 7,
+            "category":6,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3eb8589cc9f548cca011ae6f00df42ce_9366/Powerlift_5_Weightlifting_Shoes_White_GY8919_02_standard_hover.jpg",
             "video": [
                 {
@@ -1907,13 +1910,13 @@
             "price": 120,
             "discount": null,
             "sizes": [
-                "7",
-                "7.5",
-                "8",
-                "9",
-                "10",
-                "10.5",
-                "11"
+                4,
+                5,
+                6,
+                8,
+                10,
+                11,
+                12
                 
             ],
             "higlights": [
@@ -1945,7 +1948,7 @@
                 "Product color: Non Dyed / Core Black / Acid Red",
                 "Product code: H02740"
             ],
-            "category": 3,
+            "category": 2,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7a91d835f0ea4264a7e9ad8d01255d76_9366/ADIZERO_X_ALLBIRDS_2.94_KG_CO2E_White_H02740_02_standard_hover.jpg",
             "video": [
                 {
@@ -1994,13 +1997,13 @@
             "price": 275,
             "discount": null,
             "sizes": [
-                "7",
-                "7.5",
-                "8.5",
-                "9.5",
-                "10",
-                "10.5",
-                "11"
+                4,
+                5,
+                7,
+                9,
+                10,
+                11,
+                12
                 
             ],
             "higlights": [
@@ -2032,7 +2035,7 @@
                 "Product color: Linen Green / Core Black / Beam Yellow",
                 "Product code: GV7074"
             ],
-            "category": 3,
+            "category": 2,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fec72ae33b934ae9a385ae2a01258585_9366/Adizero_Prime_X_Shoes_Green_GV7074_02_standard.jpg",
             "video": [
                 {
@@ -2104,14 +2107,14 @@
             "price": 80,
             "discount": null,
             "sizes": [
-                "7",
-                "7.5",
-                "8",
-                "8.5",
-                "10",
-                "10.5",
-                "11",
-                "11.5"
+                4,
+                5,
+                6,
+                7,
+                10,
+                11,
+                12,
+                13
             ],
             "higlights": [
                 {
@@ -2142,7 +2145,7 @@
                 "Product color: Core Black / Core Black / Cloud White",
                 "Product code: GZ0664"
             ],
-            "category": 3,
+            "category": 2,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ac11d3a6937b4d98983dad7100d54526_9366/Ventice_Climacool_Shoes_Black_GZ0664_02_standard_hover.jpg",
             "video": [
                 {
@@ -2175,13 +2178,13 @@
             "price": 200,
             "discount": null,
             "sizes": [
-                "8",
-                "8.5",
-                "9",
-                "9.5",
-                "10",
-                "10.5",
-                "11"
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
                 
             ],
             "higlights": [
@@ -2213,7 +2216,7 @@
                 "Product color: Orange / silver metallic / Turbo",
                 "Product code: GZ8619"
             ],
-            "category": 3,
+            "category":2,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f868ec76630544418c18ad67007add24_9366/adidas_4DFWD_Shoes_Orange_GZ8619_02_standard_hover.jpg",
             "video": [
                 {
@@ -2261,12 +2264,12 @@
             "price": 190,
             "discount": null,
             "sizes": [
-                "8.5",
-                "9",
-                "9.5",
-                "10",
-                "10.5",
-                "11"
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
                 
             ],
             "higlights": [
@@ -2298,7 +2301,7 @@
                 "Product color: Core Black / Cloud White / Purple",
                 "Product code: GY4424"
             ],
-            "category": 3,
+            "category":2,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d82cf6364d6d4d908a3fae0c015313ad_9366/Ultraboost_5.0_DNA_Pride_Shoes_Black_GY4424_02_standard_hover.jpg",
             "video": [
                 {
@@ -2357,13 +2360,13 @@
             "price": 120,
             "discount": 84,
             "sizes": [
-                "7",
-                "7.5",
-                "8",
-                "9",
-                "10",
-                "11",
-                "11.5"
+                4,
+                5,
+                6,
+                8,
+                10,
+                12,
+                13
                 
             ],
             "higlights": [
@@ -2407,7 +2410,7 @@
                 "Product color: Core Black / Cloud White / Grey Five",
                 "Product code: H67509"
             ],
-            "category": 3,
+            "category": 2,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0a907a9f58bb41c79746ad20002ff6ee_9366/Adizero_Adios_6_Shoes_Black_H67509_02_standard.jpg",
             "video": [
                 {
@@ -2442,16 +2445,17 @@
             "price": 190,
             "discount": null,
             "sizes": [
-                "7",
-                "7.5",
-                "8",
-                "8.5",
-                "9",
-                "9.5",
-                "10",
-                "10.5",
-                "11",
-                "11.5"
+                0,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
             ],
             "higlights": [
                 {
@@ -2482,7 +2486,7 @@
                 "Product color: Dash Grey / Cloud White / Pulse Lime",
                 "Product code: GZ1594"
             ],
-            "category": 3,
+            "category": 2,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6882984e21d14fbb9578adf30025941f_9366/Ultraboost_Web_DNA_Shoes_Grey_GZ1594_02_standard_hover.jpg",
             "video": [
                 {
@@ -2516,11 +2520,11 @@
             "price": 190,
             "discount": null,
             "sizes": [    
-                "7.5",
-                "9",
-                "10",
-                "10.5",
-                "11"
+                4,
+                8,
+                10,
+                11,
+                12
                 
             ],
             "higlights": [
@@ -2564,7 +2568,7 @@
                 "Product color: Cloud White / Cloud White / Core Black",
                 "Product code: GZ0449"
             ],
-            "category": 3,
+            "category": 2,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4dc3f3eaddf041149171adfe000a9439_9366/Ultraboost_1.0_DNA_Shoes_White_GZ0449_02_standard.jpg",
             "video": [
                 {
@@ -2635,12 +2639,14 @@
             "name": "ADILETTE SANDALS",
             "price": 40,
             "discount": null,
-            "sizes": [    
-                "7",
-                "8",
-                "9",
-                "10",
-                "11"
+            "sizes": [
+                0,
+                2,   
+                4,
+                6,
+                8,
+                10,
+                12
                 
             ],
             "higlights": [
@@ -2672,7 +2678,7 @@
                 "Product color: Core Black / Cloud White / Core Black",
                 "Product code: F35416"
             ],
-            "category": 5,
+            "category": 4,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5a1ef538705d449c9e42a9b501650c9b_9366/Adilette_Sandals_Black_F35416_02_standard_hover.jpg",
             "video": [
                 {
@@ -2704,11 +2710,11 @@
             "price": 32,
             "discount": null,
             "sizes": [    
-                "7",
-                "8",
-                "9",
-                "10",
-                "11"
+                4,
+                6,
+                8,
+                10,
+                12
                 
             ],
             "higlights": [
@@ -2749,7 +2755,7 @@
                 "Product color: Core Black / Cloud White / Core Black",
                 "Product code: F35580"
             ],
-            "category": 5,
+            "category": 4,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6fb1266b9e5d489b8323a99600e390fd_9366/Adissage_Slides_Black_F35580_02_standard_hover.jpg",
             "video": [
                 {
@@ -2797,12 +2803,12 @@
             "price": 30,
             "discount": null,
             "sizes": [ 
-                "6",   
-                "7",
-                "8",
-                "9",
-                "10",
-                "11"
+                2,   
+                4,
+                6,
+                8,
+                10,
+                12
                 
             ],
             "higlights": [
@@ -2831,7 +2837,7 @@
                 "Product color: Cloud White / Core Black / Cloud White",
                 "Product code: FU8297"
             ],
-            "category": 5,
+            "category": 4,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b9e51d04fbe14d1a9c61aaee01102efc_9366/Adilette_Lite_Slides_White_FU8297_02_standard_hover.jpg",
             "video": [
                 {
@@ -2892,11 +2898,11 @@
             "price": 35,
             "discount": null,
             "sizes": [    
-                "7",
-                "8",
-                "9",
-                "10",
-                "11"
+                4,
+                6,
+                8,
+                10,
+                12
                 
             ],
             "higlights": [
@@ -2927,7 +2933,7 @@
                 "Product color: Legend Ink / Cloud White / Legend Ink",
                 "Product code: GZ5892"
             ],
-            "category": 5,
+            "category": 4,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/508a54c897224197b84cad6e00cbb8d6_9366/Adilette_Comfort_Slides_Blue_GZ5892_02_standard_hover.jpg",
             "video": [
                 {
@@ -3012,11 +3018,11 @@
             "price": 27,
             "discount": null,
             "sizes": [    
-                "7",
-                "8",
-                "9",
-                "10",
-                "11"
+                4,
+                6,
+                8,
+                10,
+                12
                 
             ],
             "higlights": [
@@ -3059,7 +3065,7 @@
                 "Product color: Cloud White / Core Black / Cloud White",
                 "Product code: F35539"
             ],
-            "category": 5,
+            "category": 4,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c4f4d7f04813447185cfa9b4016597c0_9366/Adilette_Aqua_Slides_White_F35539_02_standard_hover.jpg",
             "video": [
                 {
@@ -3120,11 +3126,11 @@
             "price": 35,
             "discount": null,
             "sizes": [    
-                "7",
-                "8",
-                "9",
-                "10",
-                "11"
+                4,
+                6,
+                8,
+                10,
+                12
                 
             ],
             "higlights": [
@@ -3155,7 +3161,7 @@
                 "Product color: Cloud White / Semi Mint Rush Mel. / Core Black",
                 "Product code: GW3161"
             ],
-            "category": 3,
+            "category": 2,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ea6e67a40a484bc2bff2ae08009b420a_9366/Shmoofoil_Slides_White_GW3161_02_standard_hover.jpg",
             "video": [
                 {
@@ -3187,11 +3193,12 @@
             "price": 35,
             "discount": null,
             "sizes": [    
-                "7",
-                "8",
-                "9",
-                "10",
-                "11"
+                0,
+                4,
+                8,
+                10,
+                12,
+                14
                 
             ],
             "higlights": [
@@ -3222,7 +3229,7 @@
                 "Product color: Real Red / Core Black / Core Black",
                 "Product code: GZ5940"
             ],
-            "category": 5,
+            "category": 4,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ec1f8edf58d84ed492faad7c006893ff_9366/Adilette_TND_Slides_Red_GZ5940_02_standard_hover.jpg",
             "video": [
                 {
@@ -3279,10 +3286,10 @@
             "price": 140,
             "discount": null,
             "sizes": [    
-                "8",
-                "10",
-                "10.5",
-                "11"
+                6,
+                10,
+                11,
+                12
                 
             ],
             "higlights": [
@@ -3310,7 +3317,7 @@
                 "Product color: Crystal White / Blue / Orange",
                 "Product code: EE9296"
             ],
-            "category": 8,
+            "category": 7,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/49bedcc77c334f3fbb00aa3e010e6b4c_9366/Rivalry_Hi_Keith_Haring_Shoes_White_EE9296_02_standard_hover.jpg",
             "video": [
                 {
@@ -3342,13 +3349,13 @@
             "price": 120,
             "discount": null,
             "sizes": [    
-                "8",
-                "9",
-                "9.5",
-                "10",
-                "10.5",
-                "11",
-                "11.5"
+                6,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
                 
             ],
             "higlights": [
@@ -3376,7 +3383,7 @@
                 "Product color: Cloud White / Purple Rush / Core Black",
                 "Product code: GX0775"
             ],
-            "category": 8,
+            "category": 7,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9e7c8ec936fd4cb0adb2ae0a017e6027_9366/Niteball_2.0_Shoes_White_GX0775_02_standard_hover.jpg",
             "video": [
                 {
@@ -3431,8 +3438,8 @@
             "price": 100,
             "discount": 80,
             "sizes": [    
-                "7",
-                "8"
+                4,
+                6
                 
             ],
             "higlights": [
@@ -3460,7 +3467,7 @@
                 "Product color: Core Black / Cloud White / Solar Red",
                 "Product code: GX6128"
             ],
-            "category": 8,
+            "category": 7,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/47b75f042ca946589d5aad7c016761ed_9366/Forum_Low_Trae_Young_Shoes_Black_GX6128_02_standard_hover.jpg",
             "video": [
                 {
@@ -3516,13 +3523,13 @@
             "price": 110,
             "discount": 88,
             "sizes": [    
-                "8",
-                "8.5",
-                "9",
-                "9.5",
-                "10",
-                "10.5",
-                "11"
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
                 
             ],
             "higlights": [
@@ -3550,7 +3557,7 @@
                 "Product color: Team Power Red / Cloud White / Vivid Red",
                 "Product code: H67717"
             ],
-            "category": 8,
+            "category": 7,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c85ec8ffb1844abb98c5ad4100149460_9366/Donovan_Mitchell_D.O.N._Issue_3_Shoes_-_Team_Collection_Red_H67717_02_standard_hover.jpg",
             "video": [
                 {
@@ -3608,15 +3615,15 @@
             "price": 120,
             "discount": null,
             "sizes": [    
-                "7",
-                "7.5",
-                "8",
-                "8.5",
-                "9",
-                "9.5",
-                "10",
-                "10.5",
-                "11"
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
                 
             ],
             "higlights": [
@@ -3644,7 +3651,7 @@
                 "Product color: Core Black / Grey Six / Panther Cyan",
                 "Product code: GW4336"
             ],
-            "category": 8,
+            "category": 7,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e60506a4b36a41cfb506adfb00090ae7_9366/Dame_8_Big_Mood_Shoes_Black_GW4336_02_standard_hover.jpg",
             "video": [
                 {
@@ -3675,10 +3682,10 @@
             "price": 100,
             "discount": null,
             "sizes": [    
-                "8.5",
-                "9",
-                "10",
-                "11"
+                7,
+                8,
+                10,
+                12
                 
             ],
             "higlights": [
@@ -3698,7 +3705,7 @@
                 "Product color: Cloud White / Pulse Aqua / Cloud White",
                 "Product code: GY3264"
             ],
-            "category": 8,
+            "category": 7,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/28616cc39cfb4d1ead8badbe00ff7145_9366/D_Rose_Son_of_Chi_White_GY3264_02_standard_hover.jpg",
             "video": [
                 {
@@ -3730,10 +3737,10 @@
             "price": 120,
             "discount": null,
             "sizes": [    
-                "7",
-                "9",
-                "10",
-                "10.5"
+                4,
+                8,
+                10,
+                11
                 
             ],
             "higlights": [
@@ -3773,7 +3780,7 @@
                 "Product color: Energy Aqua / Core Black / Team Shock Pink",
                 "Product code: GZ6475"
             ],
-            "category": 5,
+            "category": 4,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fd91aaf4bc214de7a86fadeb00085b73_9366/Dame_8_Shoes_Blue_GZ6475_02_standard_hover.jpg",
             "video": [
                 {
@@ -3818,13 +3825,13 @@
             "price": 120,
             "discount": null,
             "sizes": [    
-                "8",
-                "8.5",
-                "9",
-                "10",
-                "10.5",
-                "11",
-                "11.5"
+                6,
+                7,
+                8,
+                10,
+                11,
+                12,
+                13
                 
             ],
             "higlights": [
@@ -3852,7 +3859,7 @@
                 "Product color: Core Black / Core Black / Orange Rush",
                 "Product code: GW1624"
             ],
-            "category": 8,
+            "category": 7,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ef1ab76935d640f99cfcaecb014ecf9f_9366/Niteball_Shoes_Black_GW1624_02_standard_hover.jpg",
             "video": [
                 {
@@ -3883,13 +3890,13 @@
             "price": 150,
             "discount": null,
             "sizes": [
-                "7.5",    
-                "8",
-                "8.5",
-                "9",
-                "10.5",
-                "11",
-                "11.5"
+                5,    
+                6,
+                7,
+                8,
+                11,
+                12,
+                13
                 
             ],
             "higlights": [
@@ -3931,7 +3938,7 @@
                 "Product color: Core Black / Carbon / Wonder White",
                 "Product code: GW5442"
             ],
-            "category": 6,
+            "category": 5,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0918c3b7c4e44ef39598ad67007a133a_9366/Five_Ten_Freerider_Pro_Mountain_Bike_Shoes_Black_GW5442_02_standard.jpg",
             "video": [
                 {
@@ -3978,12 +3985,12 @@
             "price": 125,
             "discount": null,
             "sizes": [
-                "7.5",    
-                "8",
-                "8.5",
-                "9",
-                "9.5",
-                "11"
+                5,    
+                6,
+                7,
+                8,
+                9,
+                12
             ],
             "higlights": [
                 {
@@ -4012,7 +4019,7 @@
                 "Product color: Power Red / Core Black / Cloud White",
                 "Product code: FW2853"
             ],
-            "category": 6,
+            "category": 5,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e6ddcafb2e0b40dd8264ac8600f5002b_9366/Five_Ten_NIAD_Moccasym_Climbing_Shoes_Red_FW2853_02_standard_hover.jpg",
             "video": [
                 {
@@ -4044,11 +4051,11 @@
             "price": 100,
             "discount": 70,
             "sizes": [
-                "9",    
-                "9,5",
-                "10",
-                "10,5",
-                "11"
+                8,    
+                9,
+                10,
+                11,
+                12
             ],
             "higlights": [
                 {
@@ -4089,7 +4096,7 @@
                 "Product color: Savanna / Core Black / Screaming Orange",
                 "Product code: FW9406"
             ],
-            "category": 6,
+            "category": 5,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8517714f0533483ca58bacaa01152fc0_9366/Terrex_Voyager_21_Travel_Shoes_Beige_FW9406_02_standard_hover.jpg",
             "video": [
                 {
@@ -4136,13 +4143,13 @@
             "price": 150,
             "discount": null,
             "sizes": [
-                "7.5",    
-                "8.5",
-                "9",
-                "9.5",
-                "10",
-                "10.5",
-                "11"
+                5,    
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
             ],
             "higlights": [
                 {
@@ -4161,7 +4168,7 @@
                 "Product color: Core Black / Carbon / Pulse Lime",
                 "Product code: GZ1932"
             ],
-            "category": 6,
+            "category": 5,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9e400d4df0ec40c1beacad86009a0bcf_9366/Five_Ten_Freerider_Pro_Canvas_Mountain_Bike_Shoe_Black_GZ1932_02_standard_hover.jpg",
             "video": [
                 {
@@ -4193,13 +4200,13 @@
             "price": 100,
             "discount": null,
             "sizes": [   
-                "8",
-                "8.5",
-                "9",
-                "9.5",
-                "10",
-                "10,5",
-                "11"
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
             ],
             "higlights": [
                 {
@@ -4228,7 +4235,7 @@
                 "Product color: Core Black / Dgh Solid Grey / Grey Five",
                 "Product code: GZ4659"
             ],
-            "category": 6,
+            "category": 5,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3e88a5886ef9476bb45fad86009b60ed_9366/Five_Ten_Freerider_Canvas_Mountain_Bike_Shoes_Black_GZ4659_02_standard.jpg",
             "video": [
                 {
@@ -4262,13 +4269,13 @@
             "price": 160,
             "discount": null,
             "sizes": [
-                "7",
-                "7.5",    
-                "8",
-                "8.5",
-                "9",
-                "9.5",
-                "10"
+                4,
+                5,    
+                6,
+                7,
+                8,
+                9,
+                10
             ],
             "higlights": [
                 {
@@ -4309,7 +4316,7 @@
                 "Product color: Focus Olive / Core Black / Grey Five",
                 "Product code: GY5075"
             ],
-            "category": 6,
+            "category": 5,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b02967ba36db4ca1917fad2b00e43276_9366/Terrex_Swift_R3_GORE-TEX_Hiking_Shoes_Green_GY5075_02_standard.jpg",
             "video": [
                 {
@@ -4356,15 +4363,15 @@
             "price": 200,
             "discount": null,
             "sizes": [
-                "7",
-                "7.5",    
-                "8",
-                "8.5",
-                "9",
-                "9.5",
-                "10",
-                "11",
-                "11.5"
+                4,
+                5,    
+                6,
+                7,
+                8,
+                9,
+                10,
+                12,
+                13
             ],
             "higlights": [
                 {
@@ -4405,7 +4412,7 @@
                 "Product color: Core Black / Grey Three / Blue Rush",
                 "Product code: GZ0334"
             ],
-            "category": 6,
+            "category": 5,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/00c29a1f9b3744ea9cfcad7c007f10cd_9366/Terrex_Free_Hiker_Primeblue_Hiking_Shoes_Black_GZ0334_02_standard_hover.jpg",
             "video": [
                 {
@@ -4463,12 +4470,12 @@
             "price": 120,
             "discount": null,
             "sizes": [
-                "7.5",    
-                "8",
-                "8.5",
-                "10",
-                "10.5",
-                "11"
+                5,    
+                6,
+                7,
+                10,
+                11,
+                12
             ],
             "higlights": [
                 {
@@ -4512,7 +4519,7 @@
                 "Product color: Core Black / Grey Five / Cloud White",
                 "Product code: GZ9865"
             ],
-            "category": 6,
+            "category": 5,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4807e1e1def940c0aed3ad650105f605_9366/Five_Ten_Sleuth_DLX_Canvas_Mountain_Bike_Shoes_Black_GZ9865_02_standard_hover.jpg",
             "video": [
                 {
@@ -4548,10 +4555,10 @@
             "price": 160,
             "discount": null,
             "sizes": [
-                "7.5",    
-                "8",
-                "8.5",
-                "10"
+                5,    
+                6,
+                7,
+                10
             ],
             "higlights": [
                 {
@@ -4595,7 +4602,7 @@
                 "Product color: Core Black / Blue Rush / Turbo",
                 "Product code: H03184"
             ],
-            "category": 6,
+            "category": 5,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/958ca31667364daaaf90add000fee278_9366/Terrex_Agravic_Flow_2.0_GORE-TEX_Trail_Running_Shoes_Green_H03182_02_standard.jpg",
             "video": [
                 {
@@ -4645,11 +4652,11 @@
             "price": 100,
             "discount": 70,
             "sizes": [
-                "7.5",    
-                "8",
-                "9.5",
-                "10",
-                "11.5"
+                5,    
+                6,
+                9,
+                10,
+                13
             ],
             "higlights": [
                 {
@@ -4690,7 +4697,7 @@
                 "Product color: Core Black / Chalk White / Grey Two",
                 "Product code: FZ2225"
             ],
-            "category": 6,
+            "category": 5,
             "imageURL_hover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/68a41cc64c204015abd4acaa0115fe82_9366/Terrex_Voyager_21_Travel_Shoes_Black_FZ2225_02_standard_hover.jpg",
             "video": [
                 {
