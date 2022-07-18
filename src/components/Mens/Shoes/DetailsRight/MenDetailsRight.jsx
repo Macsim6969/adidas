@@ -12,7 +12,7 @@ const MenDetailsRight = ({image}) => {
     const dispatch = useDispatch()
     const { things } = useSelector((state) => state.sneak)
     const { categ, discount, price, sizes, name, details } = things
-    console.log(things)
+
 
     const [choiceSizes, setChoiceSizes] = useState(null)
 

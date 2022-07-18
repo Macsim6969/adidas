@@ -1,16 +1,16 @@
 import React from 'react'
 import dop from '../../../scss/mendetdop.module.scss'
 const MenDetailsDopInfo = ({ dopImage }) => {
-    
     return (
-        <div className={dop.dop_image}>
-            <nav>
+        <div className={dop.dop_image}>      
                 {
-                    dopImage && dopImage.filter(item => item < 3).map(d => {
-                        return <img className={dop.image} key={d} src={d} alt={d} />
-                    })
+                    dopImage && dopImage.slice(2).map(d => {
+                        return <div key={d}>
+                            <img className={dop.image}  src={d} alt={d} />
+                        </div>
+
+                    }) 
                 }
-            </nav>
         </div>
     )
 }

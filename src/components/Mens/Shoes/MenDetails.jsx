@@ -14,7 +14,8 @@ const MenDetails = () => {
     const dispatch = useDispatch()
     const { id } = useParams()
     const { galleryChoice, things } = useSelector((state) => state.sneak)
-    const {galleryDop} = things
+    console.log(galleryChoice)
+    const { galleryDop } = things
     const [image, setImage] = useState([])
     const [dopImage, setDopImage] = useState([])
     useEffect(() => {
@@ -58,22 +59,28 @@ const MenDetails = () => {
                     </div>
                     <nav className={d.details_images_left_dop}>
                         {
+                            galleryChoice && <nav>{galleryChoice.length} color available</nav>
+                        
+                        }
+                        {
                             galleryChoice && galleryChoice.map((e, index) => {
                                 return <img className={e === image ? 'active' : ''} onClick={() => oneClick(e, index)} key={index} src={e} alt="" />
                             })
                         }
                     </nav>
-                    {/* <nav>
-                        {galleryDop && dopImage.info.slice(0, 2).map((dop) =>{
-                            return  <img src={dop} alt="" />
-                            
+                    <nav className={d.details_images_left_image_two}>
+                        {galleryDop && dopImage.slice(0, 2).map((dop) => {
+                            return <div>
+                                <img src={dop} alt="" />
+                            </div>
+
                         })}
-                    </nav> */}
+                    </nav>
                     <div className={d.details_images_left_show}>
                         {showDopImage &&
                             <MenDetailsDopInfo oneClick={oneClick} dopImage={dopImage} />}
                         {
-                            showDopImage ? <button onClick={() => setShowDopImage(!showDopImage)}>Less</button> : <button onClick={() => setShowDopImage(!showDopImage)}>Show</button>
+                            showDopImage ? <button className={d.details_images_left_show_btn} onClick={() => setShowDopImage(!showDopImage)}>Less</button> : <button className={d.details_images_left_show_btn} onClick={() => setShowDopImage(!showDopImage)}>Show</button>
                         }
                     </div>
 
