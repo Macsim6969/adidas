@@ -8,14 +8,16 @@ import { setGalleryDop, setSneackGallery, setThing, setThings } from '../../../r
 import MenDetailsDopInfo from './MenDetailsDopInfo'
 import '../../../scss/active.scss'
 import MenDetailsRight from './DetailsRight/MenDetailsRight'
+import BottomDetails from './DetailsLeft/BottomDetails'
+import BottomDetailsHiglight from './DetailsLeft/BottomDetailsHiglight'
+import BottomDet from './DetailsLeft/BottomDet'
 
 
 const MenDetails = () => {
     const dispatch = useDispatch()
     const { id } = useParams()
     const { galleryChoice, things } = useSelector((state) => state.sneak)
-    console.log(galleryChoice)
-    const { galleryDop } = things
+    const { galleryDop, higlights, descriptions, details } = things
     const [image, setImage] = useState([])
     const [dopImage, setDopImage] = useState([])
     useEffect(() => {
@@ -60,7 +62,7 @@ const MenDetails = () => {
                     <nav className={d.details_images_left_dop}>
                         {
                             galleryChoice && <nav>{galleryChoice.length} color available</nav>
-                        
+
                         }
                         {
                             galleryChoice && galleryChoice.map((e, index) => {
@@ -83,12 +85,17 @@ const MenDetails = () => {
                             showDopImage ? <button className={d.details_images_left_show_btn} onClick={() => setShowDopImage(!showDopImage)}>Less</button> : <button className={d.details_images_left_show_btn} onClick={() => setShowDopImage(!showDopImage)}>Show</button>
                         }
                     </div>
-
-                    {/* {
-                        things && things.map(er =>{
-                            <nav>{er.descriptions}</nav>
-                        })
-                    } */}
+                    <div className={d.details_images_left_bottom}>
+                        <div className={d.details_images_left_bottom_hig}>
+                            <BottomDetailsHiglight obj={higlights} log={"Highlights"} />
+                        </div>
+                        <div className={d.details_images_left_bottom_descriptions}>
+                            <BottomDetails log={"Descriptions"}  obj={descriptions}/>
+                        </div>
+                        <div className={d.details_images_left_bottom_det}>
+                            <BottomDet log={"Details"} obj={details}/>
+                        </div>
+                    </div>
                 </div>
                 <MenDetailsRight image={image} />
             </div>

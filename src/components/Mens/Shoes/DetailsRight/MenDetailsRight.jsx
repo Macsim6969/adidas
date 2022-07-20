@@ -31,7 +31,7 @@ const MenDetailsRight = ({image}) => {
                 <nav className={d.details_images_right_fix_categ}>{categ}</nav>
                 <nav className={d.details_images_right_fix_name}>{name}</nav>
                 {
-                    discount === null ? <nav className={d.details_images_right_fix_price} >${price}</nav> : <nav className={d.details_images_right_fix_discount}>${discount}</nav>
+                    discount === null ? <nav className={d.details_images_right_fix_price} >${price}</nav> : <> <nav className={d.details_images_right_fix_discount}>${discount}</nav> <nav className={d.details_images_right_fix_price} >${price}</nav></>
 
                 }
                 {

@@ -61,16 +61,113 @@
                     color: white;
                 }
             }
-            &_under{
-                max-width: 960px;
-                margin:  0 auto;
-                &_higlights{
-                    p{
-                        border: 1px solid black;
-                        font-size: 19px;
-                        padding: 10px 5px;
+            &_bottom{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: white;
+                width: 100%;
+                &_hig{
+                    margin-top: 50px;
+                    width: 960px;
+                    height: auto;
+                    &_log{
+                        border-top: 1px solid black;
+                        border-left: 5px solid black ;
+                        padding: 15px 15px;
+                        font-size: 18px;
+                        text-transform: uppercase;
+                        text-align: left;
+                        width: 100%; 
+                        margin-bottom: 35px;
+                    }
+                    &_main{
                         display: flex;
-                        justify-content: flex-start;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        justify-content: space-around;
+                        &_inner{
+                            display: flex;
+                            flex-direction: column;
+                            width: 25%;
+                            &_blog{
+                                max-width: 240px;
+                                &_img{
+                                    max-width: 100%;
+                                    max-height: 100%;
+                                }
+                            }
+                            &_name{
+                                font-weight: bold;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+                &_descriptions{
+                    margin-top: 50px;
+                    width: 960px;
+                    height: auto;
+                    &_log{
+                        border-top: 1px solid black;
+                        border-left: 5px solid black ;
+                        padding: 15px 15px;
+                        font-size: 18px;
+                        text-transform: uppercase;
+                        text-align: left;
+                        width: 100%; 
+                        margin-bottom: 35px;
+                    }
+                    &_main{
+                        justify-content: space-between;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        &_lf{
+                            flex-basis: 48%;
+                        }
+                        &_rg{
+                            flex-basis: 48%;
+                            nav{
+                                max-width: 100%;
+                                img{
+                                    max-width: 100%;
+                                    max-height: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+                &_det {
+                    margin-top: 50px;
+                    width: 960px;
+                    height: auto;
+                    &_log{
+                        border-top: 1px solid black;
+                        border-left: 5px solid black ;
+                        padding: 15px 15px;
+                        font-size: 18px;
+                        text-transform: uppercase;
+                        text-align: left;
+                        width: 100%; 
+                        margin-bottom: 35px;
+                    }
+                    &_main{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        max-height: 360px;
+                        flex-wrap: wrap;
+                        &_inner{
+                            max-width: 50%;
+                            ul{
+                                display: flex;
+                                flex-basis: 45%;
+                            }
+                        }
+                        
                     }
                 }
             }
