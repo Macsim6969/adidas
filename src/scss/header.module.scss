@@ -41,6 +41,9 @@
             gap: 30px;
             align-items: center;
             justify-content: space-between;
+            @media (max-width:320px){
+                gap: 15px;
+            }
             &_bar {
                 font-weight: 600;
                 text-transform: uppercase;

@@ -8,6 +8,7 @@ import sn from '../../../scss/sneakers.module.scss'
 import '../../../scss/active.scss'
 import MenShoesThings from './MenShoesThings'
 import MyLoader from '../../ShoesLoader'
+import { useState } from 'react'
 
 const MenShoes = React.memo(() => {
     const { sneakers, category, isLoading, infoCategory } = useSelector(({ sneak }) => sneak)
@@ -22,7 +23,7 @@ const MenShoes = React.memo(() => {
         dispatch(setMenCategory(categ))
     }
 
-
+    const [search , setSearch ] = useState('')
     return (
         <div className={sn.sneaker}>
             <div className={sn.sneaker_cont}>
@@ -48,10 +49,12 @@ const MenShoes = React.memo(() => {
                             {mencat.shoes}
                         </nav>
                     })}
-
+                    <nav>
+                        <input type="text" placeholder={"search some things ?"} value={search} onChange={(event) => setSearch(event.target.value)} />
+                    </nav>
                 </div>
                 <>
-                    {isLoading ? <MenShoesThings sneakers={sneakers} /> : <MyLoader />}
+                    {isLoading || sneakers ? <MenShoesThings search={search} sneakers={sneakers} /> : <MyLoader />}
                 </>
                 {
                     infoCategory.map((footer) => {

@@ -17,7 +17,7 @@ const MenDetails = () => {
     const dispatch = useDispatch()
     const { id } = useParams()
     const { galleryChoice, things } = useSelector((state) => state.sneak)
-    const { galleryDop, higlights, descriptions, details } = things
+    const { video, galleryDop, higlights, descriptions, details } = things
     const [image, setImage] = useState([])
     const [dopImage, setDopImage] = useState([])
     useEffect(() => {
@@ -51,13 +51,14 @@ const MenDetails = () => {
         }
     }
 
+
     return (
         <div className={d.details}>
             <div className={d.details_images}>
                 <div className={d.details_images_left}>
                     <Link to={'/men-sneakers'} >Back</Link>
                     <div className={d.details_images_left_main}>
-                        <img src={image} alt="" className='z' onClick={() => addZoom()} />
+                        <img onClick={() => addZoom()} src={image} alt="" className='z' />
                     </div>
                     <nav className={d.details_images_left_dop}>
                         {
@@ -70,14 +71,21 @@ const MenDetails = () => {
                             })
                         }
                     </nav>
+                    {/* <div className={d.details_images_left_detai_v}>
+                        {
+                            video && video[0].map(v => {
+                                return <nav key={v}><video src={v.info} autoPlay={true}></video></nav>
+                            })
+                        }
+                    </div> */}
                     <nav className={d.details_images_left_image_two}>
-                        {galleryDop && dopImage.slice(0, 2).map((dop) => {
-                            return <div>
-                                <img src={dop} alt="" />
-                            </div>
+                            {galleryDop && dopImage.slice(0, 2).map((dop) => {
+                                return <div>
+                                    <img src={dop} alt="" />
+                                </div>
 
-                        })}
-                    </nav>
+                            })}
+                        </nav>
                     <div className={d.details_images_left_show}>
                         {showDopImage &&
                             <MenDetailsDopInfo oneClick={oneClick} dopImage={dopImage} />}
@@ -90,10 +98,10 @@ const MenDetails = () => {
                             <BottomDetailsHiglight obj={higlights} log={"Highlights"} />
                         </div>
                         <div className={d.details_images_left_bottom_descriptions}>
-                            <BottomDetails log={"Descriptions"}  obj={descriptions}/>
+                            <BottomDetails log={"Descriptions"} obj={descriptions} />
                         </div>
                         <div className={d.details_images_left_bottom_det}>
-                            <BottomDet log={"Details"} obj={details}/>
+                            <BottomDet log={"Details"} obj={details} />
                         </div>
                     </div>
                 </div>

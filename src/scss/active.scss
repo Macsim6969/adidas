@@ -8,11 +8,12 @@
 
 .z{
     transition: all .8s ease;
+    cursor: zoom-in;
 }
 .zoom {
-    transform: scale(2);
-
+    transform: scale(1.8);
     transition: all .8s ease;
+    cursor: zoom-out;
 }
 .activesize{
     border: 1px solid black;

@@ -3,9 +3,11 @@ import h from '../scss/header.module.scss'
 import { MdOutlineShoppingBag } from 'react-icons/md'
 import { Link } from 'react-router-dom'
 import { GrDeliver } from 'react-icons/gr'
+import { useSelector } from 'react-redux'
 
 
 const Header = () => {
+    const {totalPrice, totalCount } = useSelector(state => state.cart)
     return (
         <div className={h.m}>
             <div className={h.m_top}>
@@ -20,8 +22,9 @@ const Header = () => {
                 </div>
                 <Link to={'/cart'}>
                     <div className={h.cart}>
-                        <p>0 $</p>
+                        <p>{totalPrice} $</p>
                         <MdOutlineShoppingBag  />
+                        <p>{totalCount}</p>
                     </div>
                 </Link>
             </div>

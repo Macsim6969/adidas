@@ -7,11 +7,12 @@ import { setChoiceSize } from '../../../../redux/action/info-action'
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
 import { useState } from 'react'
 import classNames from 'classnames'
+import { setObj } from '../../../../redux/action/cart-action'
 
 const MenDetailsRight = ({image}) => {
     const dispatch = useDispatch()
     const { things } = useSelector((state) => state.sneak)
-    const { categ, discount, price, sizes, name, details } = things
+    const { categ, discount, price, sizes, name, details, id } = things
 
 
     const [choiceSizes, setChoiceSizes] = useState(null)
@@ -21,8 +22,9 @@ const MenDetailsRight = ({image}) => {
         setChoiceSizes(e)
     }
 
-    const sendInfo = (e) => {
-        console.log(e)
+
+    const setCart = (obj) =>{
+        dispatch(setObj(obj))
     }
     
     return (
@@ -51,8 +53,8 @@ const MenDetailsRight = ({image}) => {
                         })}
                     </div>
                 }
-                <div onClick={() => sendInfo({ name, price, discount , choiceSizes, image })} className={d.details_images_right_fix_button}>
-                    <button className={d.details_images_right_fix_button_btn}  type='button'>ADD TO BAG</button>
+                <div onClick={() => setCart({ name, price, discount , choiceSizes, image, id })} className={d.details_images_right_fix_button}>
+                    <button className={d.details_images_right_fix_button_btn}   type='button'>ADD TO BAG</button>
                     <HiOutlineArrowNarrowRight />
                 </div>
 
